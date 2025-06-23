@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "Method": "List",
+    "RelativePath": "api/Reservation/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
