@@ -12,9 +12,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
 {
     public class ReservationService : IReservationService
     {
-        private readonly IRepository<Reservation> reservationRepository;
+        private readonly ReservationRepository reservationRepository;
 
-        public ReservationService(IRepository<Reservation> reservationRepository)
+        public ReservationService(ReservationRepository reservationRepository)
         {
             this.reservationRepository = reservationRepository;
         }

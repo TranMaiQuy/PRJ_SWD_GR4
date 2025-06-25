@@ -152,3 +152,4 @@ E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\refint\PRJ_SWD.Business.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\PRJ_SWD.Business.pdb
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\PRJ_SWD.Business.genruntimeconfig.cache
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\ref\PRJ_SWD.Business.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\PRJ_SWD.Business.sourcelink.json

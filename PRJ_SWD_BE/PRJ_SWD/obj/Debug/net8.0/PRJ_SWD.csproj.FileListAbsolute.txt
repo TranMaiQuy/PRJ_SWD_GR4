@@ -198,3 +198,4 @@ E:\SWD\PRJ_SWD_BE\PRJ_SWD\obj\Debug\net8.0\refint\PRJ_SWD.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD\obj\Debug\net8.0\PRJ_SWD.pdb
 E:\SWD\PRJ_SWD_BE\PRJ_SWD\obj\Debug\net8.0\PRJ_SWD.genruntimeconfig.cache
 E:\SWD\PRJ_SWD_BE\PRJ_SWD\obj\Debug\net8.0\ref\PRJ_SWD.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD\obj\Debug\net8.0\PRJ_SWD.sourcelink.json

@@ -28,3 +28,4 @@ E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\refint\PRJ_SWD.DAL.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD.DAL.pdb
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD.DAL.genruntimeconfig.cache
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\ref\PRJ_SWD.DAL.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD.DAL.sourcelink.json
