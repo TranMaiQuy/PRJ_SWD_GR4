@@ -23,9 +23,9 @@ public partial class MedicalExamination
 
     public int CustomerId { get; set; }
 
-    public virtual Person Customer { get; set; } = null!;
+    public virtual Account Customer { get; set; } = null!;
 
     public virtual ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
 
-    public virtual Person Staff { get; set; } = null!;
+    public virtual Account Staff { get; set; } = null!;
 }

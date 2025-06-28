@@ -1,12 +1,16 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Reservation from "../views/Reservation/Reservation"; // ✅ Quan trọng
+import Reservation from "../views/Reservation/Reservation";
+import Blog from "../views/Blog/Blog"; 
+import BlogDetail from '../views/Blog/BlogDetail';
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/reservation" />} />
       <Route path="/reservation" element={<Reservation />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/detail/:id" element={<BlogDetail />} />
     </Routes>
   );
 };

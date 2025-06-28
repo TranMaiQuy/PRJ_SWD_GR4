@@ -12,7 +12,7 @@ namespace PRJ_SWD.DAL.Infracstructure
         void Update(T entity);
         T Delete(T entity);
 
-        T Delete(int id);
+        T GetById(int id);
 
         List<T> List();
     }

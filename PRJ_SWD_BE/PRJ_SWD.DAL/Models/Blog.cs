@@ -23,5 +23,5 @@ public partial class Blog
 
     public virtual Category Category { get; set; } = null!;
 
-    public virtual Person Person { get; set; } = null!;
+    public virtual Account Person { get; set; } = null!;
 }
