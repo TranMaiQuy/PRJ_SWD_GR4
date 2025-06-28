@@ -1,5 +1,10 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\10childrenCare1.jpg
+wwwroot\images\1734079440559_childrendCare2.jpg
+wwwroot\images\1734079514070_child-care-page-header-photo.jpg
+wwwroot\images\1HLTH111-1.jpg
+wwwroot\images\4childrendCare2.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

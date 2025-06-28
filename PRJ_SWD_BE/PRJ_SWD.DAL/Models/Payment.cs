@@ -17,5 +17,5 @@ public partial class Payment
 
     public int PersonId { get; set; }
 
-    public virtual Person Person { get; set; } = null!;
+    public virtual Account Person { get; set; } = null!;
 }

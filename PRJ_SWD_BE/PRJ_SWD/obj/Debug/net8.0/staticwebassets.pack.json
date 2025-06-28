@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\10childrenCare1.jpg",
+      "PackagePath": "staticwebassets\\images\\10childrenCare1.jpg"
+    },
+    {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\1734079440559_childrendCare2.jpg",
+      "PackagePath": "staticwebassets\\images\\1734079440559_childrendCare2.jpg"
+    },
+    {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\1734079514070_child-care-page-header-photo.jpg",
+      "PackagePath": "staticwebassets\\images\\1734079514070_child-care-page-header-photo.jpg"
+    },
+    {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\1HLTH111-1.jpg",
+      "PackagePath": "staticwebassets\\images\\1HLTH111-1.jpg"
+    },
+    {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4childrendCare2.jpg",
+      "PackagePath": "staticwebassets\\images\\4childrendCare2.jpg"
+    },
+    {
       "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

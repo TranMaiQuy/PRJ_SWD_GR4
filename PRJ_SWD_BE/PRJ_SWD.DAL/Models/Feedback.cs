@@ -17,7 +17,7 @@ public partial class Feedback
 
     public string ResponseFeedback { get; set; } = null!;
 
-    public virtual Person Customer { get; set; } = null!;
+    public virtual Account Customer { get; set; } = null!;
 
     public virtual Service Service { get; set; } = null!;
 }

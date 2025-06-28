@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "Method": "Detail",
+    "RelativePath": "api/Blog/detail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "Method": "List",
+    "RelativePath": "api/Blog/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
     "Method": "List",
     "RelativePath": "api/Reservation/list",

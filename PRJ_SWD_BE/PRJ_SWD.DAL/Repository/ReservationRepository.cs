@@ -8,7 +8,7 @@ using PRJ_SWD.DAL.Models;
 
 namespace PRJ_SWD.DAL.Repository
 {
-   public class ReservationRepository : IRepository<Reservation>
+    public class ReservationRepository : IRepository<Reservation>
     {
         private readonly PrjSwdContext _context;
         public ReservationRepository(PrjSwdContext context)
@@ -36,6 +36,11 @@ namespace PRJ_SWD.DAL.Repository
                 _context.Reservations.Remove(entity);
             }
             return entity;
+        }
+
+        public Reservation GetById(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Reservation> List()

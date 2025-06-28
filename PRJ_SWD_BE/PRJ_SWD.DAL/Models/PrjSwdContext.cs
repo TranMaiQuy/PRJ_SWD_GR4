@@ -32,8 +32,6 @@ public partial class PrjSwdContext : DbContext
 
     public virtual DbSet<Payment> Payments { get; set; }
 
-    public virtual DbSet<Person> People { get; set; }
-
     public virtual DbSet<Prescription> Prescriptions { get; set; }
 
     public virtual DbSet<Reservation> Reservations { get; set; }
@@ -56,24 +54,45 @@ public partial class PrjSwdContext : DbContext
         var strConn = config["ConnectionStrings:MyDatabase"];
         optionsBuilder.UseSqlServer(strConn);
     }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Account>(entity =>
         {
+            entity.HasKey(e => e.PersonId).HasName("PK_PersonAccount");
+
             entity.ToTable("Account");
 
+            entity.Property(e => e.Address).HasMaxLength(1000);
             entity.Property(e => e.Email).HasMaxLength(50);
+            entity.Property(e => e.Image).HasMaxLength(1000);
             entity.Property(e => e.Password).HasMaxLength(1000);
-
-            entity.HasOne(d => d.Person).WithMany(p => p.Accounts)
-                .HasForeignKey(d => d.PersonId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Account_Person");
+            entity.Property(e => e.PersonName).HasMaxLength(50);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(20)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.Role).WithMany(p => p.Accounts)
                 .HasForeignKey(d => d.RoleId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Account_Role");
+
+            entity.HasMany(d => d.Services).WithMany(p => p.People)
+                .UsingEntity<Dictionary<string, object>>(
+                    "PersonsService",
+                    r => r.HasOne<Service>().WithMany()
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .HasConstraintName("FK_Persons_Services_Service"),
+                    l => l.HasOne<Account>().WithMany()
+                        .HasForeignKey("PersonId")
+                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .HasConstraintName("FK_Persons_Services_Account"),
+                    j =>
+                    {
+                        j.HasKey("PersonId", "ServiceId");
+                        j.ToTable("Persons_Services");
+                    });
         });
 
         modelBuilder.Entity<Blog>(entity =>
@@ -94,7 +113,7 @@ public partial class PrjSwdContext : DbContext
             entity.HasOne(d => d.Person).WithMany(p => p.Blogs)
                 .HasForeignKey(d => d.PersonId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Blog_Person");
+                .HasConstraintName("FK_Blog_Account");
         });
 
         modelBuilder.Entity<Category>(entity =>
@@ -114,7 +133,7 @@ public partial class PrjSwdContext : DbContext
             entity.HasOne(d => d.Customer).WithMany(p => p.Feedbacks)
                 .HasForeignKey(d => d.CustomerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Feedback_Person");
+                .HasConstraintName("FK_Feedback_Account");
 
             entity.HasOne(d => d.Service).WithMany(p => p.Feedbacks)
                 .HasForeignKey(d => d.ServiceId)
@@ -177,37 +196,7 @@ public partial class PrjSwdContext : DbContext
             entity.HasOne(d => d.Person).WithMany(p => p.Payments)
                 .HasForeignKey(d => d.PersonId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Payment_Person");
-        });
-
-        modelBuilder.Entity<Person>(entity =>
-        {
-            entity.ToTable("Person");
-
-            entity.Property(e => e.Address).HasMaxLength(1000);
-            entity.Property(e => e.Email).HasMaxLength(50);
-            entity.Property(e => e.Image).HasMaxLength(1000);
-            entity.Property(e => e.PersonName).HasMaxLength(50);
-            entity.Property(e => e.Phone)
-                .HasMaxLength(20)
-                .IsUnicode(false);
-
-            entity.HasMany(d => d.Services).WithMany(p => p.People)
-                .UsingEntity<Dictionary<string, object>>(
-                    "PersonsService",
-                    r => r.HasOne<Service>().WithMany()
-                        .HasForeignKey("ServiceId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_Persons_Services_Service"),
-                    l => l.HasOne<Person>().WithMany()
-                        .HasForeignKey("PersonId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_Persons_Services_Person"),
-                    j =>
-                    {
-                        j.HasKey("PersonId", "ServiceId");
-                        j.ToTable("Persons_Services");
-                    });
+                .HasConstraintName("FK_Payment_Account");
         });
 
         modelBuilder.Entity<Prescription>(entity =>
@@ -251,6 +240,11 @@ public partial class PrjSwdContext : DbContext
 
             entity.Property(e => e.CreatedDate).HasColumnName("Created_Date");
             entity.Property(e => e.Note).HasMaxLength(255);
+
+            entity.HasOne(d => d.Customer).WithMany(p => p.Reservations)
+                .HasForeignKey(d => d.CustomerId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Reservation_Account_Customer");
         });
 
         modelBuilder.Entity<Role>(entity =>
@@ -278,7 +272,7 @@ public partial class PrjSwdContext : DbContext
             entity.HasOne(d => d.Manager).WithMany(p => p.ServicesNavigation)
                 .HasForeignKey(d => d.ManagerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Service_Person");
+                .HasConstraintName("FK_Service_Account");
 
             entity.HasMany(d => d.Orders).WithMany(p => p.Services)
                 .UsingEntity<Dictionary<string, object>>(
@@ -347,7 +341,7 @@ public partial class PrjSwdContext : DbContext
             entity.HasOne(d => d.Person).WithMany(p => p.Sliders)
                 .HasForeignKey(d => d.PersonId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Slider_Person");
+                .HasConstraintName("FK_Slider_Account");
         });
 
         OnModelCreatingPartial(modelBuilder);
