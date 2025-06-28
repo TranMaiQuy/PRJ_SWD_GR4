@@ -153,3 +153,17 @@ E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\PRJ_SWD.Business.pdb
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\PRJ_SWD.Business.genruntimeconfig.cache
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\ref\PRJ_SWD.Business.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\obj\Debug\net8.0\PRJ_SWD.Business.sourcelink.json
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Http.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.Business\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
