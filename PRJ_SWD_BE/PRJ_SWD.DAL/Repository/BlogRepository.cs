@@ -55,14 +55,12 @@ namespace PRJ_SWD.DAL.Repository
             await _context.SaveChangesAsync();
         }
 
-        public Blog Delete(Blog entity)
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        public Blog Delete(int id)
+        public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var blog = GetById(id);
+            _context.Blogs.Remove(blog);
         }
 
         public Blog GetById(int id)
@@ -89,7 +87,38 @@ namespace PRJ_SWD.DAL.Repository
             return result;
         }
 
-        public void Update(Blog entity)
+        public Blog Update(int id,BlogDto dto)
+        {
+            string fileName = null;
+
+            if (dto.Image != null && dto.Image.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                Directory.CreateDirectory(uploadsFolder); // tạo nếu chưa có
+
+                fileName = Guid.NewGuid().ToString() + Path.GetExtension(dto.Image.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                     dto.Image.CopyTo(stream);
+                }
+            }
+            var existingBlog = _context.Blogs.FirstOrDefault(b => b.BlogId == id);
+          
+
+            existingBlog.Title = dto.Title;
+            existingBlog.Content = dto.Content;
+            existingBlog.Description = dto.Description;
+            existingBlog.Image = fileName;
+            existingBlog.CategoryId = dto.CategoryId;
+            existingBlog.PersonId = dto.PersonId;
+            existingBlog.CreatedDate = DateOnly.FromDateTime(dto.CreatedDate);
+            _context.Blogs.Update(existingBlog);
+            return existingBlog;
+        }
+
+        public void Update(int id, Blog entity)
         {
             throw new NotImplementedException();
         }
@@ -99,7 +128,16 @@ namespace PRJ_SWD.DAL.Repository
             throw new NotImplementedException();
         }
 
+      
+      
+
+
         List<Blog> IRepository<Blog>.List()
+        {
+            throw new NotImplementedException();
+        }
+
+        Blog IRepository<Blog>.Update(int id, Blog entity)
         {
             throw new NotImplementedException();
         }

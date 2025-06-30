@@ -31,24 +31,28 @@ const Blog = () => {
   };
 
   const handleDelete = async (id) => {
-    if (!window.confirm("Are you sure you want to delete this blog?")) return;
+  if (!window.confirm("Are you sure you want to delete this blog?")) return;
 
-    try {
-      const response = await fetch(`https://localhost:7012/api/blog/${id}`, {
-        method: "DELETE",
-      });
+  try {
+    console.log("Deleting blog id:", id);
+    const response = await fetch(`https://localhost:7012/api/blog/${id}`, {
+      method: "DELETE",
+    });
 
-      if (!response.ok) {
-        throw new Error("Failed to delete blog");
-      }
+    console.log("Response status:", response.status);
+    const responseBody = await response.text();
+    console.log("Response body:", responseBody);
 
-      // Refresh list
-      fetchBlogs();
-    } catch (error) {
-      console.error("Delete error:", error);
-      alert("Error deleting blog");
+    if (!response.ok) {
+      throw new Error("Failed to delete blog");
     }
-  };
+
+    fetchBlogs();
+  } catch (error) {
+    console.error("Delete error:", error);
+    alert("Error deleting blog");
+  }
+};
 
   const handleCreate = () => {
     // Điều hướng đến trang tạo mới
@@ -95,14 +99,20 @@ const Blog = () => {
               <h3>{blog.title}</h3>
               <p><strong>Description:</strong> {blog.description}</p>
               <img
-                src={
-                  blog.image.startsWith("https")
-                    ? blog.image
-                    : `https://localhost:7012/images/${blog.image}`
-                }
-                alt={blog.title}
-                style={{ maxWidth: "100%", height: "auto", margin: "10px 0" }}
-              />
+  src={
+    blog.image.startsWith("https")
+      ? blog.image
+      : `https://localhost:7012/images/${blog.image}`
+  }
+  alt={blog.title}
+  style={{
+    width: "300px",
+    height: "200px",
+    objectFit: "cover",
+    borderRadius: "8px",
+    margin: "10px 0"
+  }}
+/>
               <p>{blog.content}</p>
               <p><strong>Created Date:</strong> {blog.createdDate}</p>
               <p><strong>Person Name:</strong> {blog.personName}</p>

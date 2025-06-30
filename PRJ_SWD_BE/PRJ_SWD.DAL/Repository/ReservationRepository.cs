@@ -52,5 +52,15 @@ namespace PRJ_SWD.DAL.Repository
         {
             _context.Reservations.Update(entity);
         }
+
+        public Reservation Update(int id, Reservation entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRepository<Reservation>.Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
