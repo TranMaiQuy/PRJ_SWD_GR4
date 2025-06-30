@@ -42,5 +42,23 @@ namespace PRJ_SWD.Controllers.BlogController
                 return StatusCode(500, new { error = ex.Message });
             }
         }
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var blog = service.GetBlogById(id); // Hoặc từ _context
+            if (blog == null) return NotFound();
+            return Ok(blog);
+        }
+        [HttpPut("{id}")]
+        public IActionResult Edit(int id, [FromForm] BlogDto dto) { 
+            var existedBlog = service.UpdateBlog(id, dto);
+            return Ok(existedBlog);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id) { 
+            service.DeleteBlog(id);
+            return Ok(new { message = "Blog deleted successfully" });
+        }
     }
 }

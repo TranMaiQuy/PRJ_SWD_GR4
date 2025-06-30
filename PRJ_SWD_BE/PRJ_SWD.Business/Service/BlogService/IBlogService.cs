@@ -12,8 +12,8 @@ namespace PRJ_SWD.Business.Service.BlogService
     internal interface IBlogService
     {
        Task AddBlog(BlogDto reservation);
-        Blog DeleteBlog(int id);
-        Blog UpdateBlog(Blog blog);
+        void DeleteBlog(int id);
+       Blog UpdateBlog(int id, BlogDto blog);
         List<BlogViewModel> GetAllBlog();
         Blog GetBlogById(int id);
     }

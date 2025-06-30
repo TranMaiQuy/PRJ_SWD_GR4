@@ -9,9 +9,9 @@ namespace PRJ_SWD.DAL.Infracstructure
     public interface IRepository<T> where T : class
     {
         T Add(T entity);
-        void Update(T entity);
-        T Delete(T entity);
-
+        T Update(int id,T entity);
+      
+        void Delete (int id);
         T GetById(int id);
 
         List<T> List();

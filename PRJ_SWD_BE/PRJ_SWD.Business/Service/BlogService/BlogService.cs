@@ -26,9 +26,10 @@ namespace PRJ_SWD.Business.Service.BlogService
             await unitOfWork.CommitAsync(); // nếu Commit là async
         }
 
-        public Blog DeleteBlog(int id)
+        public void DeleteBlog(int id)
         {
-            throw new NotImplementedException();
+            repository.Delete(id);
+            unitOfWork.Commit();
         }
 
         public List<BlogViewModel> GetAllBlog()
@@ -41,9 +42,11 @@ namespace PRJ_SWD.Business.Service.BlogService
            return repository.GetById(id);
         }
 
-        public Blog UpdateBlog(Blog blog)
+        public Blog UpdateBlog(int id, BlogDto blog)
         {
-            throw new NotImplementedException();
+            var blogDto = repository.Update(id, blog);
+            unitOfWork.Commit();
+            return blogDto;
         }
     }
 }
