@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PRJ_SWD.DAL.DTO;
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
+using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 
 namespace PRJ_SWD.DAL.Repository
 {
@@ -16,10 +18,23 @@ namespace PRJ_SWD.DAL.Repository
             _context = context;
         }
 
-        public Reservation Add(Reservation entity)
+        public void Add(ReservationCreateDto entity)
         {
-            _context.Reservations.Add(entity);
-            return entity;
+            var reservation = new Reservation
+            {
+                CustomerId = entity.CustomerId,
+                StaffId = entity.StaffId,
+                CreatedDate = DateOnly.FromDateTime(DateTime.Now),
+                Status = 0,
+                ReservationDate = entity.ReservationDate,
+                Note = entity.Note,
+            };
+            for (int i = 0; i < entity.ServiceIds.Count; i++) {
+                var service = _context.Services.Find(entity.ServiceIds[i]);
+                if (service != null) reservation.Services.Add(service);
+            }
+            _context.Reservations.Add(reservation);
+
         }
 
         public Reservation Delete(Reservation entity)
@@ -54,6 +69,11 @@ namespace PRJ_SWD.DAL.Repository
         }
 
         public Reservation Update(int id, Reservation entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Reservation IRepository<Reservation>.Add(Reservation entity)
         {
             throw new NotImplementedException();
         }

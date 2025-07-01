@@ -49,7 +49,7 @@ const Reservation = () => {
 
   const handleCreate = () => {
     alert("Redirect to create reservation form");
-    // TODO: Navigate to create form
+    window.location.href = "/reservation/create";
   };
 
   if (loading) return <p>Loading...</p>;

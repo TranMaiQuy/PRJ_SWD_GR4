@@ -4,6 +4,7 @@ using PRJ_SWD.DAL.Models;
 using PRJ_SWD.DAL.Repository;
 using Microsoft.EntityFrameworkCore;
 using PRJ_SWD.Business.Service.BlogService;
+using PRJ_SWD.Business.Service.ServiceService;
 
 namespace PRJ_SWD
 {
@@ -20,6 +21,8 @@ namespace PRJ_SWD
             builder.Services.AddScoped<ReservationRepository>();
             builder.Services.AddScoped<BlogService>();
             builder.Services.AddScoped<BlogRepository>();
+            builder.Services.AddScoped<ServiceService>();
+            builder.Services.AddScoped<ServiceRepository>();
             builder.Services.AddDbContext<PrjSwdContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("MyDatabase")));
 
