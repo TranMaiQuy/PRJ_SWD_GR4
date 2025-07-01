@@ -156,9 +156,35 @@
   },
   {
     "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "Method": "Create",
+    "RelativePath": "api/Reservation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "PRJ_SWD.DAL.DTO.ReservationCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
     "Method": "List",
     "RelativePath": "api/Reservation/list",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.ServiceController.ServiceController",
+    "Method": "List",
+    "RelativePath": "api/Service/list",
+    "HttpMethod": "",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

@@ -3,32 +3,96 @@
   "WorkspaceRootPath": "E:\\SWD\\PRJ_SWD_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\blogservice\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\blogservice\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\infracstructure\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\infracstructure\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\blogcontroller\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\blogcontroller\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\servicecontroller\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\servicecontroller\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\blogservice\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\blogservice\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\blogservice\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\blogservice\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\dto\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\dto\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\serviceservice\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\serviceservice\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\serviceservice\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\serviceservice\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\infracstructure\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\infracstructure\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\medicalexamination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\medicalexamination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -87,24 +151,8 @@
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\dto\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,44 +163,20 @@
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\medicalexamination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\medicalexamination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -182,7 +206,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,65 +214,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwD4AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T15:59:27.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:42:10.479Z",
+              "WhenOpened": "2025-06-21T02:57:37.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T16:02:43.172Z",
+              "WhenOpened": "2025-06-21T03:18:34.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:08:26.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\IBlogService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\BlogService\\IBlogService.cs",
               "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\IBlogService.cs",
               "RelativeToolTip": "PRJ_SWD.Business\\Service\\BlogService\\IBlogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T16:01:40.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "RelativeToolTip": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T06:33:51.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BlogController.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
               "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
               "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
               "RelativeToolTip": "PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T16:05:38.072Z",
               "EditorCaption": ""
@@ -256,236 +293,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "RelativeToolTip": "PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:57:37.892Z",
+              "WhenOpened": "2025-07-01T06:28:09.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IReservationService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:08:26.366Z",
+              "WhenOpened": "2025-06-25T16:02:43.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "7686213c-0cb1-4606-91f9-08195ec27fa5.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:14.113Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "4131c774-651f-4b9b-b8ad-c9abcf1506fd.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:16.091Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "46ef18a7-5eac-4948-a124-c8cf284c7c36.png - PNG [513x384, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png - PNG [513x384, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png - PNG [513x384, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:14.938Z",
-              "EditorCaption": " - PNG [513x384, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "8f83c43f-b6e1-4f75-8f81-33913ab6b975.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T07:00:04.492Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:08.701Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:17.029Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "fa3195b8-8e41-429d-a288-f70c67b72622.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:12.558Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:11.78Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:10.928Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "bb6928c4-39b4-4f10-bb79-066d04d9afab.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:09.94Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "9f680733-7b5c-4e29-9a7f-d432376114be.png - PNG [1019x760, 32 bit, PNG]",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png",
-              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png - PNG [1019x760, 32 bit, PNG]",
-              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png - PNG [1019x760, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-30T01:35:06.907Z",
-              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BlogDto.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\DTO\\BlogDto.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\DTO\\BlogDto.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\DTO\\BlogDto.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\DTO\\BlogDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T10:07:14.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Blog.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Blog.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Blog.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Blog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:42:37.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Program.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD\\Program.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Program.cs",
-              "RelativeToolTip": "PRJ_SWD\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:14:14.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:42:34.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:42:48.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "RelativeToolTip": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:33:51.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Program.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Program.cs",
@@ -493,119 +326,162 @@
               "RelativeToolTip": "PRJ_SWD.Business\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:40:20.926Z"
+              "WhenOpened": "2025-06-21T02:40:20.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BlogViewModel.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Program.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Program.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Program.cs",
+              "RelativeToolTip": "PRJ_SWD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T02:27:55.168Z"
+              "WhenOpened": "2025-06-21T03:14:14.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:18:34.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Category.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Category.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T19:06:03.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Account.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Account.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Account.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T19:06:19.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "PrjSwdContext.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwDEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:29:04.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Feedback.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Feedback.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Feedback.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Feedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:43:47.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\appsettings.json",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\appsettings.json",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\appsettings.json",
-              "RelativeToolTip": "PRJ_SWD.DAL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-21T02:49:09.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 10,
               "Title": "Reservation.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Reservation.cs",
               "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Reservation.cs",
               "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:28:08.079Z"
+              "WhenOpened": "2025-06-27T04:28:08.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Role.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Role.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Role.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Service.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Service.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Service.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:28:09.183Z"
+              "WhenOpened": "2025-06-27T04:28:10.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 12,
+              "Title": "ReservationCreateDto.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\DTO\\ReservationCreateDto.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\DTO\\ReservationCreateDto.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\DTO\\ReservationCreateDto.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\DTO\\ReservationCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T00:31:08.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:53:41.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T15:59:27.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:55:53.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:42:10.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceViewModel.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\ViewModel\\ServiceViewModel.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\ViewModel\\ServiceViewModel.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\ViewModel\\ServiceViewModel.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\ViewModel\\ServiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:52:25.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IServiceService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:56:13.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BlogViewModel.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\ViewModel\\BlogViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T02:27:55.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MedicalExamination.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:28:12.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Schedule.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Schedule.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Schedule.cs",
@@ -617,19 +493,259 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Service.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Service.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Service.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "PrjSwdContext.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:28:10.55Z"
+              "WhenOpened": "2025-06-27T04:29:04.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "7686213c-0cb1-4606-91f9-08195ec27fa5.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:14.113Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "4131c774-651f-4b9b-b8ad-c9abcf1506fd.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\4131c774-651f-4b9b-b8ad-c9abcf1506fd.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:16.091Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "46ef18a7-5eac-4948-a124-c8cf284c7c36.png - PNG [513x384, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png - PNG [513x384, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\46ef18a7-5eac-4948-a124-c8cf284c7c36.png - PNG [513x384, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:14.938Z",
+              "EditorCaption": " - PNG [513x384, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "8f83c43f-b6e1-4f75-8f81-33913ab6b975.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\8f83c43f-b6e1-4f75-8f81-33913ab6b975.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T07:00:04.492Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:08.701Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\4190c7e4-7f83-45d7-9e1e-d0da5f95f88b.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:17.029Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "fa3195b8-8e41-429d-a288-f70c67b72622.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\fa3195b8-8e41-429d-a288-f70c67b72622.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:12.558Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\e331d17d-18e7-4bb8-8dbc-f0eb526dfb1c.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:11.78Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\d2ada416-9ea7-4970-8a2d-4dc68b6506c8.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:10.928Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "bb6928c4-39b4-4f10-bb79-066d04d9afab.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:09.94Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "9f680733-7b5c-4e29-9a7f-d432376114be.png - PNG [1019x760, 32 bit, PNG]",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png",
+              "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png - PNG [1019x760, 32 bit, PNG]",
+              "RelativeToolTip": "PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png - PNG [1019x760, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-30T01:35:06.907Z",
+              "EditorCaption": " - PNG [1019x760, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BlogDto.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\DTO\\BlogDto.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\DTO\\BlogDto.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\DTO\\BlogDto.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\DTO\\BlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T10:07:14.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Blog.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Blog.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:42:37.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Infracstructure\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:42:34.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T02:42:48.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Category.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Category.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:06:03.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Account.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Account.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:06:19.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Feedback.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Feedback.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:43:47.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\appsettings.json",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\appsettings.json",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\appsettings.json",
+              "RelativeToolTip": "PRJ_SWD.DAL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T02:49:09.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Role.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Role.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:28:09.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "Slider.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Slider.cs",
@@ -641,19 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MedicalExamination.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:28:12.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\HomeController.cs",
@@ -665,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "PRJ_SWD.DAL.csproj",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
@@ -677,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "1HLTH111-1.jpg - Bitmap [1024x738, 32 bit, JPG]",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\1HLTH111-1.jpg",
               "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\1HLTH111-1.jpg",
@@ -689,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "10childrenCare1.jpg - Bitmap [848x482, 24 bit, JPG]",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\10childrenCare1.jpg",
               "RelativeDocumentMoniker": "PRJ_SWD\\wwwroot\\images\\10childrenCare1.jpg",
@@ -701,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\appsettings.json",
               "RelativeDocumentMoniker": "PRJ_SWD\\appsettings.json",

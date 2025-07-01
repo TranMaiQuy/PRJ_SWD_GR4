@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PRJ_SWD.Business.Service.ReservationService;
+using PRJ_SWD.DAL.DTO;
 
 namespace PRJ_SWD.Controllers.ReservationController
 {
@@ -18,6 +19,11 @@ namespace PRJ_SWD.Controllers.ReservationController
             var list = reservationService.GetAllReservations();
             return Ok(list);
         }
-        
+        [HttpPost("create")]
+        public IActionResult Create([FromBody] ReservationCreateDto reservation)
+        {
+            reservationService.AddReservation(reservation);
+            return Ok(new { message = "Reservation created successfully" });
+        }
     }
 }
