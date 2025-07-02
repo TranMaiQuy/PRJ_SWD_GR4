@@ -189,5 +189,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.StaffController.StaffController",
+    "Method": "List",
+    "RelativePath": "api/Staff/list",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
