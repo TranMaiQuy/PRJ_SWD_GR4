@@ -27,7 +27,7 @@ const Reservation = () => {
   const handleDelete = (id) => {
     if (!window.confirm("Are you sure you want to delete this reservation?")) return;
 
-    fetch(`https://localhost:7012/api/reservation/delete/${id}`, {
+    fetch(`https://localhost:7012/api/reservation/${id}`, {
       method: "DELETE",
     })
       .then((res) => {

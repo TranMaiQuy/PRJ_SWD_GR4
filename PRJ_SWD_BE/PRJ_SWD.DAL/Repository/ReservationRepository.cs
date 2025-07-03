@@ -45,14 +45,20 @@ namespace PRJ_SWD.DAL.Repository
             return entity;
         }
 
-        public Reservation Delete(int id)
+        public void Delete(int id)
         {
-            var entity = _context.Reservations.Find(id);
-            if (entity != null)
-            {
-                _context.Reservations.Remove(entity);
-            }
-            return entity;
+            var reservation = _context.Reservations
+       .Include(r => r.Services) // Include bảng trung gian
+       .FirstOrDefault(r => r.ReservationId == id);
+
+            if (reservation == null)
+                return;
+
+            // Xoá tất cả quan hệ nhiều-nhiều trước
+            reservation.Services.Clear();
+
+            // Xoá chính nó
+            _context.Reservations.Remove(reservation);
         }
 
         public ReservationViewModel GetById(int id)
