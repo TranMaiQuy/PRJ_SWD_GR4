@@ -7,6 +7,7 @@ using PRJ_SWD.DAL.DTO;
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
 using PRJ_SWD.DAL.Repository;
+using PRJ_SWD.DAL.ViewModel;
 
 
 namespace PRJ_SWD.Business.Service.ReservationService
@@ -37,9 +38,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
             return reservationRepository.List();
         }
 
-        public Reservation GetReservationById(int id)
+        public ReservationViewModel GetReservationById(int id)
         {
-            throw new NotImplementedException();
+            return reservationRepository.GetById(id);
         }
 
         public Reservation UpdateReservation(Reservation reservation)

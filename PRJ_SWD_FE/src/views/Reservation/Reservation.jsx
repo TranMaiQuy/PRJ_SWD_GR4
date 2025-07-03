@@ -37,14 +37,13 @@ const Reservation = () => {
       .catch((err) => console.error("Delete error:", err));
   };
 
-  const handleDetail = (id) => {
-    alert(`Reservation detail ID: ${id}`);
-    // TODO: Navigate or show modal with details
+ const handleDetail = (id) => {
+    // 👉 Điều hướng đến trang ReservationDetail
+    window.location.href = `/reservation/detail/${id}`;
   };
 
   const handleEdit = (id) => {
-    alert(`Edit reservation ID: ${id}`);
-    // TODO: Navigate to edit page or show form
+    window.location.href = `/reservation/edit/${id}`;
   };
 
   const handleCreate = () => {

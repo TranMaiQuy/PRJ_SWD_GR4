@@ -6,6 +6,7 @@ import BlogDetail from '../views/Blog/BlogDetail';
 import BlogCreate from '../views/Blog/BlogCreate';
 import BlogUpdate from '../views/Blog/BlogUpdate';
 import ReservationCreate from '../views/Reservation/ReservationCreate';
+import ReservationDetail from "../views/Reservation/ReservationDetail";
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
       <Route path="/blog/create" element={<BlogCreate/>} />
       <Route path="/blog/edit/:id" element={<BlogUpdate/>} />
       <Route path="/reservation/create" element={<ReservationCreate />} />
+      <Route path="/reservation/detail/:id" element={<ReservationDetail />} />
     </Routes>
   );
 };
