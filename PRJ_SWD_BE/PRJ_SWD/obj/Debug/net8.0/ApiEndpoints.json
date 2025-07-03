@@ -156,6 +156,22 @@
   },
   {
     "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "Method": "Delete",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
     "Method": "Create",
     "RelativePath": "api/Reservation/create",
     "HttpMethod": "POST",

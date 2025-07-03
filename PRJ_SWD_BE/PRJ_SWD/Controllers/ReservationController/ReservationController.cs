@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PRJ_SWD.Business.Service.ReservationService;
 using PRJ_SWD.DAL.DTO;
+using PRJ_SWD.DAL.Models;
 
 namespace PRJ_SWD.Controllers.ReservationController
 {
@@ -31,6 +32,12 @@ namespace PRJ_SWD.Controllers.ReservationController
         {
             var reservaton = reservationService.GetReservationById(id);
             return Ok(reservaton);
+        }
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            reservationService.DeleteReservation(id);
+            return Ok(new { message = "Reservation deleted successfully" });
         }
     }
 }

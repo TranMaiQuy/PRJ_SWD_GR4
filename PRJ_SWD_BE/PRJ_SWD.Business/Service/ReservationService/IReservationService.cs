@@ -12,7 +12,7 @@ namespace PRJ_SWD.Business.Service.ReservationService
    public interface IReservationService
     {
         void AddReservation(ReservationCreateDto reservation);
-        Reservation DeleteReservation(int id);
+       void DeleteReservation(int id);
         Reservation UpdateReservation(Reservation reservation);
         List<Reservation> GetAllReservations();
         ReservationViewModel GetReservationById(int id);

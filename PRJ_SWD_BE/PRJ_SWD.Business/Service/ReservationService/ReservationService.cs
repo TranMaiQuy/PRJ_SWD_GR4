@@ -28,9 +28,10 @@ namespace PRJ_SWD.Business.Service.ReservationService
            unitOfWork.Commit();
         }
 
-        public Reservation DeleteReservation(int id)
+        public void DeleteReservation(int id)
         {
-            throw new NotImplementedException();
+            reservationRepository.Delete(id);
+            unitOfWork.Commit();
         }
 
         public List<Reservation> GetAllReservations()
