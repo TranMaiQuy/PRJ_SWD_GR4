@@ -25,5 +25,12 @@ namespace PRJ_SWD.Controllers.ReservationController
             reservationService.AddReservation(reservation);
             return Ok(new { message = "Reservation created successfully" });
         }
+
+        [HttpGet("detail/{id}")]
+        public IActionResult Detail(int id)
+        {
+            var reservaton = reservationService.GetReservationById(id);
+            return Ok(reservaton);
+        }
     }
 }

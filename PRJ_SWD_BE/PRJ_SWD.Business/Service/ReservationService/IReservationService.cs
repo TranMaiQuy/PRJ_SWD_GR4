@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PRJ_SWD.DAL.DTO;
 using PRJ_SWD.DAL.Models;
+using PRJ_SWD.DAL.ViewModel;
 
 namespace PRJ_SWD.Business.Service.ReservationService
 {
@@ -14,6 +15,6 @@ namespace PRJ_SWD.Business.Service.ReservationService
         Reservation DeleteReservation(int id);
         Reservation UpdateReservation(Reservation reservation);
         List<Reservation> GetAllReservations();
-        Reservation GetReservationById(int id);
+        ReservationViewModel GetReservationById(int id);
     }
 }

@@ -172,6 +172,22 @@
   },
   {
     "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "Method": "Detail",
+    "RelativePath": "api/Reservation/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
     "Method": "List",
     "RelativePath": "api/Reservation/list",
     "HttpMethod": "GET",
