@@ -172,6 +172,27 @@
   },
   {
     "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "Method": "Edit",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PRJ_SWD.DAL.DTO.ReservationUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
     "Method": "Create",
     "RelativePath": "api/Reservation/create",
     "HttpMethod": "POST",

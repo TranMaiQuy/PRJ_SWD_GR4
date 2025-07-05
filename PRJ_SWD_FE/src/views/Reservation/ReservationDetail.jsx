@@ -41,7 +41,9 @@ function ReservationDetail() {
     <div>
       <strong>Customer Name:</strong> {reservation.customerName}
     </div>
-
+     <div>
+        <strong>Status:</strong> {reservation.status === 1 ? "Accept" : "Pending"}
+      </div>
     <div>
       <strong>Staff Name:</strong> {reservation.staffName}
     </div>

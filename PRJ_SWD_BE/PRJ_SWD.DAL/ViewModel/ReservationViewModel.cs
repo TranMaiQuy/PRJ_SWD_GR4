@@ -12,6 +12,9 @@ namespace PRJ_SWD.DAL.ViewModel
         public string? ReservationDate { get; set; }  // hoặc DateOnly nếu bạn dùng DateOnly
         public string Note { get; set; } = null!;
         public string StaffName { get; set; } = null!;
+        public int StaffId { get; set; }
+
+        public int Status { get; set; }
         public string CustomerName { get; set; } = null!;
         public List<ServiceViewModel> Services { get; set; } = new();
     }
