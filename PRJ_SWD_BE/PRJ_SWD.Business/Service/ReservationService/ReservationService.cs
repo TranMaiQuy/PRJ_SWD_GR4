@@ -44,9 +44,12 @@ namespace PRJ_SWD.Business.Service.ReservationService
             return reservationRepository.GetById(id);
         }
 
-        public Reservation UpdateReservation(Reservation reservation)
+        public Reservation UpdateReservation(int id, ReservationUpdateDto reservation)
         {
-            throw new NotImplementedException();
+            var result = reservationRepository.Update(id, reservation);
+            unitOfWork.Commit();
+            return result;
+
         }
     }
 }

@@ -80,6 +80,8 @@ namespace PRJ_SWD.DAL.Repository
                 ReservationId = reservation.ReservationId,
                 ReservationDate = reservation.ReservationDate?.ToString("yyyy-MM-dd"),
                 Note = reservation.Note,
+                Status = reservation.Status,
+                StaffId = reservation.StaffId,
                 StaffName = staff?.PersonName ?? "Unknown staff", // fallback nếu không tìm thấy
                 CustomerName = customer?.PersonName ?? "Unknown Cusstomer",
                 Services = reservation.Services.Select(s => new ServiceViewModel
@@ -101,6 +103,30 @@ namespace PRJ_SWD.DAL.Repository
         public void Update(Reservation entity)
         {
             _context.Reservations.Update(entity);
+        }
+
+        public Reservation Update(int id, ReservationUpdateDto model)
+        {
+            var reservation =  _context.Reservations
+       .Include(r => r.Services) // load Services để cập nhật nhiều-nhiều
+       .FirstOrDefault(r => r.ReservationId == id);
+
+          
+
+            // Cập nhật các thông tin cơ bản
+            reservation.Note = model.Note;
+            reservation.ReservationDate = DateOnly.Parse(model.ReservationDate);
+            reservation.Status = model.Status;
+            reservation.StaffId = model.StaffId;
+            reservation.Services.Clear(); // xóa toàn bộ service cũ
+
+          
+            for (int i = 0; i < model.ServiceIds.Count; i++)
+            {
+                var service = _context.Services.Find(model.ServiceIds[i]);
+                if (service != null) reservation.Services.Add(service);
+            }
+            return reservation;
         }
 
         public Reservation Update(int id, Reservation entity)

@@ -2,6 +2,7 @@
 using PRJ_SWD.Business.Service.ReservationService;
 using PRJ_SWD.DAL.DTO;
 using PRJ_SWD.DAL.Models;
+using PRJ_SWD.DAL.ViewModel;
 
 namespace PRJ_SWD.Controllers.ReservationController
 {
@@ -38,6 +39,12 @@ namespace PRJ_SWD.Controllers.ReservationController
         {
             reservationService.DeleteReservation(id);
             return Ok(new { message = "Reservation deleted successfully" });
+        }
+        [HttpPut("{id}")]
+        public IActionResult Edit(int id, [FromBody] ReservationUpdateDto dto)
+        {
+            var existedReservation = reservationService.UpdateReservation(id, dto);
+            return Ok(existedReservation);
         }
     }
 }
