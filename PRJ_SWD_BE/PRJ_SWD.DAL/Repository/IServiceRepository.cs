@@ -5,7 +5,7 @@ namespace PRJ_SWD.DAL.Repository
 {
     public interface IServiceRepository
     {
-        List<ServiceViewModel> List();
+        List<Service> List();
         Service GetById(int id);
         void Delete(int id);
         void Add(Service entity);

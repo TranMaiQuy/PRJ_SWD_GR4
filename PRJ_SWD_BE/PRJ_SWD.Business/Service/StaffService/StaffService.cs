@@ -17,7 +17,16 @@ namespace PRJ_SWD.Business.Service.StaffService
         }
         public List<StaffViewModel> GetAllStaff()
         {
-            return repository.List();
+            var list = repository.List()
+      .Where(a => a.RoleId == 2 && (a.StaffId == 1 || a.StaffId == 2))
+      .Select(a => new StaffViewModel
+      {
+          PersonId = a.PersonId,
+          PersonName = a.PersonName,
+          StaffId = a.StaffId
+      })
+      .ToList();
+            return list;
         }
     }
 }

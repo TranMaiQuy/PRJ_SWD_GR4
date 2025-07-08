@@ -31,13 +31,9 @@ namespace PRJ_SWD.DAL.Repository
             throw new NotImplementedException();
         }
 
-        public List<ServiceViewModel> List()
+        public List<Service> List()
         {
-            var list = _context.Services.Select(s => new ServiceViewModel
-            {
-                ServiceId = s.ServiceId,
-                ServiceName = s.ServiceName,
-            }).ToList();
+            var list = _context.Services.ToList();
             return list;
         }
 
