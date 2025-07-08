@@ -12,7 +12,7 @@ using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 
 namespace PRJ_SWD.DAL.Repository
 {
-    public class ReservationRepository : IRepository<Reservation>
+    public class ReservationRepository : IReservationRepository
     {
         private readonly PrjSwdContext _context;
         public ReservationRepository(PrjSwdContext context)
@@ -39,12 +39,7 @@ namespace PRJ_SWD.DAL.Repository
 
         }
 
-        public Reservation Delete(Reservation entity)
-        {
-            _context.Reservations.Remove(entity);
-            return entity;
-        }
-
+       
         public void Delete(int id)
         {
             var reservation = _context.Reservations
@@ -100,10 +95,7 @@ namespace PRJ_SWD.DAL.Repository
             return _context.Reservations.ToList();
         }
 
-        public void Update(Reservation entity)
-        {
-            _context.Reservations.Update(entity);
-        }
+      
 
         public Reservation Update(int id, ReservationUpdateDto model)
         {
@@ -129,24 +121,6 @@ namespace PRJ_SWD.DAL.Repository
             return reservation;
         }
 
-        public Reservation Update(int id, Reservation entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Reservation IRepository<Reservation>.Add(Reservation entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        void IRepository<Reservation>.Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Reservation IRepository<Reservation>.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

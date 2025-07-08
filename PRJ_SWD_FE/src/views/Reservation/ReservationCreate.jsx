@@ -64,40 +64,62 @@ function ReservationCreate() {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const parsedStaffId = parseInt(formData.staffId); // chính là personId
-    if (isNaN(parsedStaffId)) {
-      alert('Vui lòng chọn nhân viên hợp lệ');
-      return;
-    }
+  const parsedStaffId = parseInt(formData.staffId);
+  if (isNaN(parsedStaffId)) {
+    alert('Vui lòng chọn nhân viên hợp lệ');
+    return;
+  }
 
-    const payload = {
-      customerId: formData.customerId,
-      staffId: parsedStaffId, // truyền personId dưới tên staffId
-      reservationDate: formData.reservationDate,
-      note: formData.note,
-      serviceIds: formData.serviceIds,
-    };
+  // ✅ Validate ngày đặt
+  if (!formData.reservationDate) {
+    alert("Vui lòng chọn ngày đặt");
+    return;
+  }
 
-    try {
-      const res = await fetch('https://localhost:7012/api/reservation/create', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
+  const selectedDate = new Date(formData.reservationDate + "T00:00:00"); // chuẩn hóa để không bị lệch giờ
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // reset giờ phút giây
 
-      const result = await res.json();
-      if (res.ok) {
-        alert('Đặt lịch thành công!');
-      } else {
-        alert('Lỗi: ' + (result.message || 'Tạo thất bại'));
-      }
-    } catch (error) {
-      alert('Lỗi kết nối server');
-    }
+  if (selectedDate <= today) {
+    alert("Ngày đặt phải sau hôm nay");
+    return;
+  }
+
+  // ✅ Validate chọn dịch vụ
+  if (!formData.serviceIds || formData.serviceIds.length === 0) {
+    alert("Vui lòng chọn ít nhất một dịch vụ");
+    return;
+  }
+
+  // Gửi payload nếu hợp lệ
+  const payload = {
+    customerId: formData.customerId,
+    staffId: parsedStaffId,
+    reservationDate: formData.reservationDate,
+    note: formData.note,
+    serviceIds: formData.serviceIds,
   };
+
+  try {
+    const res = await fetch("https://localhost:7012/api/reservation/create", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    const result = await res.json();
+    if (res.ok) {
+      alert("Đặt lịch thành công!");
+    } else {
+      alert("Lỗi: " + (result.message || "Tạo thất bại"));
+    }
+  } catch (error) {
+    alert("Lỗi kết nối server");
+  }
+};
 
   const getSelectedServices = () => {
     return serviceList.filter((s) =>
@@ -181,3 +203,4 @@ function ReservationCreate() {
 }
 
 export default ReservationCreate;
+

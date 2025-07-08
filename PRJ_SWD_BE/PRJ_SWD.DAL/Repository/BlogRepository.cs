@@ -14,7 +14,7 @@ using System.IO;
 
 namespace PRJ_SWD.DAL.Repository
 {
-    public class BlogRepository : IRepository<Blog>
+    public class BlogRepository : IBlogRepository
     {
         private PrjSwdContext _context;
        
@@ -117,29 +117,6 @@ namespace PRJ_SWD.DAL.Repository
             _context.Blogs.Update(existingBlog);
             return existingBlog;
         }
-
-        public void Update(int id, Blog entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Blog IRepository<Blog>.Add(Blog entity)
-        {
-            throw new NotImplementedException();
-        }
-
-      
-      
-
-
-        List<Blog> IRepository<Blog>.List()
-        {
-            throw new NotImplementedException();
-        }
-
-        Blog IRepository<Blog>.Update(int id, Blog entity)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

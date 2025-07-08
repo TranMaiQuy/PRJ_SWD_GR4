@@ -9,14 +9,14 @@ using PRJ_SWD.DAL.ViewModel;
 
 namespace PRJ_SWD.DAL.Repository
 {
-    public class ServiceRepository : IRepository<Service>
+    public class ServiceRepository : IServiceRepository
     {
         private PrjSwdContext _context;
         public ServiceRepository(PrjSwdContext context)
         {
             _context = context;
         }
-        public Service Add(Service entity)
+        public void Add(Service entity)
         {
             throw new NotImplementedException();
         }
@@ -46,9 +46,6 @@ namespace PRJ_SWD.DAL.Repository
             throw new NotImplementedException();
         }
 
-        List<Service> IRepository<Service>.List()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
