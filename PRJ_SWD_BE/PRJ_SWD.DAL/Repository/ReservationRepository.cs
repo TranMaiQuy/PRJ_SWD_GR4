@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
+using PRJ_SWD.Application.DTO;
+using PRJ_SWD.Application.ViewModel;
+using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 
 namespace PRJ_SWD.DAL.Repository
 {
-    public class ReservationRepository : IRepository<Reservation>
+    public class ReservationRepository : IReservationRepository
     {
         private readonly PrjSwdContext _context;
         public ReservationRepository(PrjSwdContext context)
@@ -16,51 +21,76 @@ namespace PRJ_SWD.DAL.Repository
             _context = context;
         }
 
-        public Reservation Add(Reservation entity)
+        public void Add(Reservation reservation)
         {
-            _context.Reservations.Add(entity);
-            return entity;
+
+            _context.Reservations.Add(reservation);
+
         }
 
-        public Reservation Delete(Reservation entity)
+
+        public void Delete(int id)
         {
-            _context.Reservations.Remove(entity);
-            return entity;
+            var reservation = _context.Reservations
+       .Include(r => r.Services) // Include bảng trung gian
+       .FirstOrDefault(r => r.ReservationId == id);
+
+            if (reservation == null)
+                return;
+
+            // Xoá tất cả quan hệ nhiều-nhiều trước
+            reservation.Services.Clear();
+
+            // Xoá chính nó
+            _context.Reservations.Remove(reservation);
         }
 
-        public Reservation Delete(int id)
-        {
-            var entity = _context.Reservations.Find(id);
-            if (entity != null)
-            {
-                _context.Reservations.Remove(entity);
-            }
-            return entity;
-        }
-
-        public Reservation GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public List<Reservation> List()
         {
             return _context.Reservations.ToList();
         }
 
-        public void Update(Reservation entity)
+
+
+        public Reservation Update(Reservation model)
         {
-            _context.Reservations.Update(entity);
+
+
+
+
+            // Cập nhật các thông tin cơ bản
+            _context.Reservations.Update(model);
+            return model;
+        }
+        public Service Find(int id, Reservation reservation)
+        {
+            var service = _context.Services.Find(id);
+            if (service != null) reservation.Services.Add(service);
+            return service;
         }
 
-        public Reservation Update(int id, Reservation entity)
+        public Reservation FindReservation(int id)
         {
-            throw new NotImplementedException();
+            return _context.Reservations
+       .Include(r => r.Services)
+       .FirstOrDefault(r => r.ReservationId == id);
         }
 
-        void IRepository<Reservation>.Delete(int id)
+        public void ClearService(Reservation reservation)
         {
-            throw new NotImplementedException();
+            reservation.Services.Clear();
+        }
+        public Account FindStaff(Reservation reservation)
+        {
+            return _context.Accounts
+                .FirstOrDefault(a => a.PersonId == reservation.StaffId);
+        }
+
+        public Account FindCustomer(Reservation reservation)
+        {
+            return _context.Accounts.FirstOrDefault(a => a.PersonId == reservation.CustomerId);
         }
     }
 }

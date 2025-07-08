@@ -27,7 +27,7 @@ const Reservation = () => {
   const handleDelete = (id) => {
     if (!window.confirm("Are you sure you want to delete this reservation?")) return;
 
-    fetch(`https://localhost:7012/api/reservation/delete/${id}`, {
+    fetch(`https://localhost:7012/api/reservation/${id}`, {
       method: "DELETE",
     })
       .then((res) => {
@@ -37,19 +37,18 @@ const Reservation = () => {
       .catch((err) => console.error("Delete error:", err));
   };
 
-  const handleDetail = (id) => {
-    alert(`Reservation detail ID: ${id}`);
-    // TODO: Navigate or show modal with details
+ const handleDetail = (id) => {
+    // 👉 Điều hướng đến trang ReservationDetail
+    window.location.href = `/reservation/detail/${id}`;
   };
 
   const handleEdit = (id) => {
-    alert(`Edit reservation ID: ${id}`);
-    // TODO: Navigate to edit page or show form
+    window.location.href = `/reservation/edit/${id}`;
   };
 
   const handleCreate = () => {
     alert("Redirect to create reservation form");
-    // TODO: Navigate to create form
+    window.location.href = "/reservation/create";
   };
 
   if (loading) return <p>Loading...</p>;
