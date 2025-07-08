@@ -22,10 +22,24 @@ namespace PRJ_SWD.Business.Service.ReservationService
             this.unitOfWork = unitOfWork;
         }
 
-        public void AddReservation(ReservationCreateDto reservation)
+        public void AddReservation(ReservationCreateDto dto)
         {
+            var reservation = new Reservation
+            {
+                CustomerId = dto.CustomerId,
+                StaffId = dto.StaffId,
+                CreatedDate = DateOnly.FromDateTime(DateTime.Now),
+                Status = 0,
+                ReservationDate = dto.ReservationDate,
+                Note = dto.Note,
+            };
+            for (int i = 0; i < dto.ServiceIds.Count; i++)
+            {
+                var service = reservationRepository.Find(dto.ServiceIds[i],reservation);
+                
+            }
 
-           reservationRepository.Add(reservation);
+            reservationRepository.Add(reservation);
            unitOfWork.Commit();
         }
 
@@ -42,12 +56,48 @@ namespace PRJ_SWD.Business.Service.ReservationService
 
         public ReservationViewModel GetReservationById(int id)
         {
-            return reservationRepository.GetById(id);
+            var reservation = reservationRepository.FindReservation(id);
+
+            if (reservation == null)
+                return null;
+
+            // Tìm nhân viên (Staff) có RoleId = 2 và StaffId khớp với CustomerId trong Reservation
+            var staff = reservationRepository.FindStaff(reservation);
+            var customer = reservationRepository.FindCustomer(reservation);
+
+            var result = new ReservationViewModel
+            {
+                ReservationId = reservation.ReservationId,
+                ReservationDate = reservation.ReservationDate?.ToString("yyyy-MM-dd"),
+                Note = reservation.Note,
+                Status = reservation.Status,
+                StaffId = reservation.StaffId,
+                StaffName = staff?.PersonName ?? "Unknown staff", // fallback nếu không tìm thấy
+                CustomerName = customer?.PersonName ?? "Unknown Cusstomer",
+                Services = reservation.Services.Select(s => new ServiceViewModel
+                {
+                    ServiceId = s.ServiceId,
+                    ServiceName = s.ServiceName
+                }).ToList()
+            };
+            return result;
         }
 
-        public Reservation UpdateReservation(int id, ReservationUpdateDto reservation)
+        public Reservation UpdateReservation(int id, ReservationUpdateDto model)
         {
-            var result = reservationRepository.Update(id, reservation);
+            var reservation = reservationRepository.FindReservation(id);
+            reservation.Note = model.Note;
+            reservation.ReservationDate = DateOnly.Parse(model.ReservationDate);
+            reservation.Status = model.Status;
+            reservation.StaffId = model.StaffId;
+            reservationRepository.ClearService(reservation);// xóa toàn bộ service cũ
+
+
+            for (int i = 0; i < model.ServiceIds.Count; i++)
+            {
+                reservationRepository.Find(model.ServiceIds[i], reservation);
+            }
+            var result = reservationRepository.Update( reservation);
             unitOfWork.Commit();
             return result;
 
