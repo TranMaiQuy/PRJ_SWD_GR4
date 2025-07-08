@@ -12,10 +12,10 @@ namespace PRJ_SWD.DAL.Repository
 {
    public interface IReservationRepository
     {
-        void Add(ReservationCreateDto dto);
+        void Add(Reservation dto);
         void Delete(int id);
-        ReservationViewModel GetById(int id);
+        Reservation FindReservation(int id);
         List<Reservation> List();
-        Reservation Update(int id, ReservationUpdateDto model);
+        Reservation Update(Reservation model);
     }
 }
