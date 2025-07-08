@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using PRJ_SWD.DAL.DTO;
+
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
-using PRJ_SWD.DAL.ViewModel;
+using PRJ_SWD.Application.DTO;
+using PRJ_SWD.Application.ViewModel;
 using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 
 namespace PRJ_SWD.DAL.Repository

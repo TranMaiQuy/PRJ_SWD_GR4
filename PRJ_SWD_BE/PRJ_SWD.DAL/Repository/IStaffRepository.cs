@@ -1,4 +1,4 @@
-﻿using PRJ_SWD.DAL.ViewModel;
+﻿using PRJ_SWD.Application.ViewModel;
 
 namespace PRJ_SWD.DAL.Repository
 {

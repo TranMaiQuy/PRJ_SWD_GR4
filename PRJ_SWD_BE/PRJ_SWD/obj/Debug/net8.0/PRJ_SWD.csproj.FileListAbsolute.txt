@@ -203,3 +203,5 @@ E:\SWD\PRJ_SWD_BE\PRJ_SWD\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abst
 E:\SWD\PRJ_SWD_BE\PRJ_SWD\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD\bin\Debug\net8.0\PRJ_SWD.Application.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD\bin\Debug\net8.0\PRJ_SWD.Application.pdb

@@ -185,7 +185,7 @@
       },
       {
         "Name": "dto",
-        "Type": "PRJ_SWD.DAL.DTO.ReservationUpdateDto",
+        "Type": "PRJ_SWD.Application.DTO.ReservationUpdateDto",
         "IsRequired": true
       }
     ],
@@ -201,7 +201,7 @@
     "Parameters": [
       {
         "Name": "reservation",
-        "Type": "PRJ_SWD.DAL.DTO.ReservationCreateDto",
+        "Type": "PRJ_SWD.Application.DTO.ReservationCreateDto",
         "IsRequired": true
       }
     ],

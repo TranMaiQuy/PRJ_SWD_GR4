@@ -29,3 +29,6 @@ E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD.DAL.pdb
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD.DAL.genruntimeconfig.cache
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\ref\PRJ_SWD.DAL.dll
 E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD.DAL.sourcelink.json
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\bin\Debug\net8.0\PRJ_SWD.Application.dll
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\bin\Debug\net8.0\PRJ_SWD.Application.pdb
+E:\SWD\PRJ_SWD_BE\PRJ_SWD.DAL\obj\Debug\net8.0\PRJ_SWD..ECA1C0CF.Up2Date
