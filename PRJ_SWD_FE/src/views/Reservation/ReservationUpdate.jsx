@@ -97,35 +97,63 @@ const getDefaultStaffName = () => {
 
   return staff ? staff.personName : "Select Staff";
 };
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const payload = {
-      CustomerId: formData.personId,
-      StaffId: formData.staffId,
-      ReservationDate: formData.reservationDate?.slice(0, 10),
-      Note: formData.note,
-      Status: formData.status,
-      ServiceIds: formData.selectedServiceIds,
-    };
+  // ✅ Validate ngày không được trống
+  if (!formData.reservationDate) {
+    alert("Vui lòng chọn ngày đặt.");
+    return;
+  }
 
-    try {
-      const res = await fetch(`https://localhost:7012/api/reservation/${id}`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
+  // ✅ Validate ngày phải sau hiện tại
+  const selectedDate = new Date(formData.reservationDate + "T00:00:00");
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // reset giờ
 
-      if (!res.ok) throw new Error("Update failed");
-      alert("Reservation updated successfully!");
-      navigate(`/reservation/detail/${id}`);
-    } catch (err) {
-      console.error("Update error:", err);
-      alert("Update failed.");
-    }
+  if (selectedDate <= today) {
+    alert("Ngày đặt phải sau ngày hiện tại.");
+    return;
+  }
+
+  // ✅ Validate phải chọn ít nhất 1 dịch vụ
+  if (!formData.selectedServiceIds || formData.selectedServiceIds.length === 0) {
+    alert("Vui lòng chọn ít nhất một dịch vụ.");
+    return;
+  }
+
+  // ✅ Validate staff
+  if (!formData.staffId || formData.staffId === 0) {
+    alert("Vui lòng chọn nhân viên.");
+    return;
+  }
+
+  const payload = {
+    CustomerId: formData.personId,
+    StaffId: formData.staffId,
+    ReservationDate: formData.reservationDate?.slice(0, 10),
+    Note: formData.note,
+    Status: formData.status,
+    ServiceIds: formData.selectedServiceIds,
   };
+
+  try {
+    const res = await fetch(`https://localhost:7012/api/reservation/${id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    if (!res.ok) throw new Error("Update failed");
+    alert("Reservation updated successfully!");
+    navigate(`/reservation/detail/${id}`);
+  } catch (err) {
+    console.error("Update error:", err);
+    alert("Update failed.");
+  }
+};
 
   if (loading) return <div>Loading...</div>;
 

@@ -10,7 +10,7 @@ using PRJ_SWD.DAL.ViewModel;
 
 namespace PRJ_SWD.DAL.Repository
 {
-    public class StaffRepository : IRepository<Account>
+    public class StaffRepository : IStaffRepository
     {
         private PrjSwdContext _context;
 
@@ -18,20 +18,7 @@ namespace PRJ_SWD.DAL.Repository
         {
             _context = context;
         }
-        public Account Add(Account entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Account GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
+      
 
         public List<StaffViewModel> List()
         {
@@ -48,14 +35,5 @@ namespace PRJ_SWD.DAL.Repository
             return list;
         }
 
-        public Account Update(int id, Account entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Account> IRepository<Account>.List()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
