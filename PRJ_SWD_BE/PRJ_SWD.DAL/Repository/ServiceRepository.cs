@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
-using PRJ_SWD.DAL.ViewModel;
+using PRJ_SWD.Application.ViewModel;
 
 namespace PRJ_SWD.DAL.Repository
 {

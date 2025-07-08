@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PRJ_SWD.Business.Service.ReservationService;
-using PRJ_SWD.DAL.DTO;
+using PRJ_SWD.Application.DTO;
 using PRJ_SWD.DAL.Models;
-using PRJ_SWD.DAL.ViewModel;
+using PRJ_SWD.Application.ViewModel;
 
 namespace PRJ_SWD.Controllers.ReservationController
 {

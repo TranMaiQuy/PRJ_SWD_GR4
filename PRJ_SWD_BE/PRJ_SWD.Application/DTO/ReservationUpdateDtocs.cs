@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PRJ_SWD.DAL.ViewModel;
 
-namespace PRJ_SWD.DAL.DTO
+
+namespace PRJ_SWD.Application.DTO
 {
     public class ReservationUpdateDto
     {

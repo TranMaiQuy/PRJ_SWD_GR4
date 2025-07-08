@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace PRJ_SWD.DAL.DTO
+namespace PRJ_SWD.Application.DTO
 {
     public class BlogDto
     {

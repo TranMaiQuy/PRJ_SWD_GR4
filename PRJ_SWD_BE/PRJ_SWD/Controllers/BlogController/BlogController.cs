@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PRJ_SWD.Business.Service.BlogService;
-using PRJ_SWD.DAL.DTO;
+using PRJ_SWD.Application.DTO;
 
 
 namespace PRJ_SWD.Controllers.BlogController
@@ -33,7 +33,7 @@ namespace PRJ_SWD.Controllers.BlogController
         {
             try
             {
-                await service.AddBlog(dto);
+               service.AddBlog(dto);
                 return Ok(new { message = "Blog created successfully" });
             }
             catch (Exception ex)

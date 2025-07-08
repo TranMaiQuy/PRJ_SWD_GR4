@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PRJ_SWD.DAL.ViewModel
+namespace PRJ_SWD.Application.ViewModel
 {
     public class StaffViewModel
     {

@@ -1878,6 +1878,19 @@
             "rid": "win"
           }
         }
+      },
+      "PRJ_SWD.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.3.0"
+        },
+        "compile": {
+          "bin/placeholder/PRJ_SWD.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PRJ_SWD.Application.dll": {}
+        }
       }
     }
   },
@@ -4865,6 +4878,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PRJ_SWD.Application/1.0.0": {
+      "type": "project",
+      "path": "../PRJ_SWD.Application/PRJ_SWD.Application.csproj",
+      "msbuildProject": "../PRJ_SWD.Application/PRJ_SWD.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4873,7 +4891,8 @@
       "Microsoft.AspNetCore.Http >= 2.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.17",
-      "Microsoft.Extensions.Configuration.Json >= 9.0.6"
+      "Microsoft.Extensions.Configuration.Json >= 9.0.6",
+      "PRJ_SWD.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4907,7 +4926,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
+              "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
