@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "E:\\SWD\\PRJ_SWD_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\serviceservice\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\serviceservice\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\staffservice\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\staffservice\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\staffservice\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\staffservice\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,40 +47,12 @@
       "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\staffservice\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\staffservice\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\staffservice\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\staffservice\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\serviceservice\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\serviceservice\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\serviceservice\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\serviceservice\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\blogcontroller\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -258,7 +258,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -266,82 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServiceService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:55:53.548Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IStaffService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:04:58.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StaffService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T04:04:46.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "RelativeToolTip": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:33:51.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IReservationService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:08:26.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAYwFIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:18:34.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ReservationRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
@@ -354,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "IReservationRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IReservationRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IReservationRepository.cs",
@@ -362,25 +287,138 @@
               "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IReservationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T06:33:56.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T06:33:56.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ServiceRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
               "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
               "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T05:53:41.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:38:06.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T03:58:32.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T04:04:46.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStaffService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T04:04:58.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:40:05.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:55:53.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwFIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:18:34.634Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:08:26.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "RelativeToolTip": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T06:33:51.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IServiceService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
@@ -389,42 +427,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T05:56:13.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StaffRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:58:32.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IStaffRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T06:38:06.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IServiceRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T06:40:05.311Z"
             },
             {
               "$type": "Document",

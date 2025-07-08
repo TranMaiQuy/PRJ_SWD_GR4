@@ -17,7 +17,12 @@ namespace PRJ_SWD.Business.Service.ServiceService
         }
         public List<ServiceViewModel> GetAllService()
         {
-           return  repository.List();
+            var list = repository.List().Select(s => new ServiceViewModel
+            {
+                ServiceId = s.ServiceId,
+                ServiceName = s.ServiceName,
+            }).ToList();
+            return  list;
         }
     }
 }

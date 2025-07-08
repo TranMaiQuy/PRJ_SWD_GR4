@@ -20,17 +20,9 @@ namespace PRJ_SWD.DAL.Repository
         }
       
 
-        public List<StaffViewModel> List()
+        public List<Account> List()
         {
-            var list = _context.Accounts
-       .Where(a => a.RoleId == 2 && (a.StaffId == 1 || a.StaffId == 2))
-       .Select(a => new StaffViewModel
-       {
-           PersonId = a.PersonId,
-           PersonName = a.PersonName,
-           StaffId = a.StaffId
-       })
-       .ToList();
+           var list = _context.Accounts.ToList();
 
             return list;
         }
