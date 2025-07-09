@@ -5,10 +5,11 @@ namespace PRJ_SWD.DAL.Repository
 {
     public interface IServiceRepository
     {
-        List<Service> List();
-        Service GetById(int id);
+        void Add(Service service);
         void Delete(int id);
-        void Add(Service entity);
-        Service Update(int id, Service entity);
+        Service? GetById(int id);
+        List<Service> GetAll();
+        Service Update(Service service);
+        Account? GetManager(int managerId);
     }
 }
