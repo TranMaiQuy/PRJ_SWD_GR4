@@ -13,13 +13,6 @@ import ServiceCreate from "../views/Service/ServiceCreate";
 import ServiceEdit from "../views/Service/ServiceEdit";
 import ServiceDetail from "../views/Service/ServiceDetail";
 
-
-
-
-
-
-
-
 const AppRoutes = () => {
   return (
     <Routes>
