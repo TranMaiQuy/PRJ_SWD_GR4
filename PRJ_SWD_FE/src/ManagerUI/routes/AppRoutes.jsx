@@ -8,6 +8,17 @@ import BlogUpdate from '../views/Blog/BlogUpdate';
 import ReservationCreate from '../views/Reservation/ReservationCreate';
 import ReservationDetail from "../views/Reservation/ReservationDetail";
 import ReservationUpdate from "../views/Reservation/ReservationUpdate";
+import Service from "../views/Service/Service";
+import ServiceCreate from "../views/Service/ServiceCreate";
+import ServiceEdit from "../views/Service/ServiceEdit";
+import ServiceDetail from "../views/Service/ServiceDetail";
+
+
+
+
+
+
+
 
 const AppRoutes = () => {
   return (
@@ -21,6 +32,12 @@ const AppRoutes = () => {
       <Route path="/reservation/create" element={<ReservationCreate />} />
       <Route path="/reservation/detail/:id" element={<ReservationDetail />} />
       <Route path="/reservation/edit/:id" element={<ReservationUpdate />} /> 
+      <Route path="/service" element={<Service />} />
+      <Route path="/service/create" element={<ServiceCreate />} />
+      <Route path="/service/edit/:id" element={<ServiceEdit />} />
+      <Route path="/service/detail/:id" element={<ServiceDetail />} />
+
+
     </Routes>
   );
 };

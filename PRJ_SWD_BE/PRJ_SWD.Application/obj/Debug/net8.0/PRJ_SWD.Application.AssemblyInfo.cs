@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRJ_SWD.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+600e816bfe2726ed025962803795f5ab82594f1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b618ac66452f538471c38bed3fd7e86739a01db")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRJ_SWD.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRJ_SWD.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

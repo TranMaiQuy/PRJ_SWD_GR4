@@ -24,6 +24,8 @@ namespace PRJ_SWD
             builder.Services.AddScoped<BlogRepository>();
             builder.Services.AddScoped<ServiceService>();
             builder.Services.AddScoped<ServiceRepository>();
+            builder.Services.AddScoped<IServiceService, ServiceService>();
+            builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
             builder.Services.AddScoped<StaffService>();
             builder.Services.AddScoped<StaffRepository>();
             builder.Services.AddDbContext<PrjSwdContext>(options =>
