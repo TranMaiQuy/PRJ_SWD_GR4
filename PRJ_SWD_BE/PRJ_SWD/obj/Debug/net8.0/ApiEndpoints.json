@@ -156,27 +156,6 @@
   },
   {
     "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
-    "Method": "Update",
-    "RelativePath": "api/Medicine/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "medicine",
-        "Type": "PRJ_SWD.DAL.Models.Medicine",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
     "Method": "Delete",
     "RelativePath": "api/Medicine/{id}",
     "HttpMethod": "DELETE",
@@ -218,6 +197,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
+    "Method": "Update",
+    "RelativePath": "api/Medicine/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medicine",
+        "Type": "PRJ_SWD.DAL.Models.Medicine",
         "IsRequired": true
       }
     ],
