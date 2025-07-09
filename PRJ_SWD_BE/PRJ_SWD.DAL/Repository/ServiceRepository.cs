@@ -6,42 +6,53 @@ using System.Threading.Tasks;
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
 using PRJ_SWD.Application.ViewModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace PRJ_SWD.DAL.Repository
 {
     public class ServiceRepository : IServiceRepository
     {
-        private PrjSwdContext _context;
+        private readonly PrjSwdContext _context;
         public ServiceRepository(PrjSwdContext context)
         {
             _context = context;
         }
-        public void Add(Service entity)
+
+        public void Add(Service service)
         {
-            throw new NotImplementedException();
+            _context.Services.Add(service);
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var service = _context.Services
+                .Include(s => s.Reservations)
+                .FirstOrDefault(s => s.ServiceId == id);
+            if (service == null) return;
+
+            service.Reservations.Clear(); // xoá quan hệ N-N
+            _context.Services.Remove(service);
         }
 
-        public Service GetById(int id)
+        public Service? GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Services.Include(s => s.Manager).FirstOrDefault(s => s.ServiceId == id);
         }
 
-        public List<Service> List()
+        public List<Service> GetAll()
         {
-            var list = _context.Services.ToList();
-            return list;
+            return _context.Services.Include(s => s.Manager).ToList();
         }
 
-        public Service Update(int id, Service entity)
+        public Service Update(Service service)
         {
-            throw new NotImplementedException();
+            _context.Services.Update(service);
+            return service;
         }
 
-       
+        public Account? GetManager(int managerId)
+        {
+            return _context.Accounts.FirstOrDefault(a => a.PersonId == managerId);
+        }
     }
 }
