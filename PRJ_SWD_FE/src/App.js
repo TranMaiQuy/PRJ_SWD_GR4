@@ -1,11 +1,15 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import AppRoutes from "./ManagerUI/routes/AppRoutes";
+import { BrowserRouter, Routes } from "react-router-dom";
+import ManagerRoutes from "./ManagerUI/routes/ManagerRoutes";
+import StaffRoutes from "./StaffUI/routes/StaffRoutes";
 
 function App() {
   return (
     <BrowserRouter>
-      <AppRoutes />
+      <Routes>
+        {ManagerRoutes}
+        {StaffRoutes}
+      </Routes>
     </BrowserRouter>
   );
 }
