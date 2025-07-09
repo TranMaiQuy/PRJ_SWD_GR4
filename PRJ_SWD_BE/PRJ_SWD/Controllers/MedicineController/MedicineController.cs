@@ -37,7 +37,7 @@ namespace PRJ_SWD.Controllers.MedicineController
             return Ok(new { message = "Service created successfully" });
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("edit/{id}")]
         public IActionResult Update(int id, [FromBody] Medicine medicine)
         {
             if (id != medicine.MedicineId) return BadRequest();
