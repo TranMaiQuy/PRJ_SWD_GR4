@@ -14,7 +14,7 @@ namespace PRJ_SWD.Business.Service.ReservationService
         void AddReservation(ReservationCreateDto reservation);
        void DeleteReservation(int id);
         Reservation UpdateReservation(int id,ReservationUpdateDto reservation);
-        List<Reservation> GetAllReservations();
+        List<ReservationViewModel> GetAllReservations();
         ReservationViewModel GetReservationById(int id);
     }
 }

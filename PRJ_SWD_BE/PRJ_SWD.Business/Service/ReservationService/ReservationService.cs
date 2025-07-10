@@ -49,9 +49,33 @@ namespace PRJ_SWD.Business.Service.ReservationService
             unitOfWork.Commit();
         }
 
-        public List<Reservation> GetAllReservations()
+        public List<ReservationViewModel> GetAllReservations()
         {
-            return reservationRepository.List();
+            var list = reservationRepository.List();
+            var result = new List<ReservationViewModel>();
+
+            foreach (var item in list)
+            {
+                var reservation = reservationRepository.FindReservation(item.ReservationId);
+                if (reservation == null)
+                    continue;
+
+                var staff = reservationRepository.FindStaff(reservation);
+                var customer = reservationRepository.FindCustomer(reservation);
+
+                result.Add(new ReservationViewModel
+                {
+                    ReservationId = reservation.ReservationId,
+                    ReservationDate = reservation.ReservationDate?.ToString("yyyy-MM-dd"),
+                    Note = reservation.Note,
+                    CreatedDate = reservation.CreatedDate,
+                    StaffName = staff?.PersonName ?? "Unknown",
+                    CustomerName = customer?.PersonName ?? "Unknown",
+                    Status = reservation.Status
+                });
+            }
+
+            return result;
         }
 
         public ReservationViewModel GetReservationById(int id)
@@ -72,6 +96,7 @@ namespace PRJ_SWD.Business.Service.ReservationService
                 Note = reservation.Note,
                 Status = reservation.Status,
                 StaffId = reservation.StaffId,
+                CreatedDate = reservation.CreatedDate,
                 StaffName = staff?.PersonName ?? "Unknown staff", // fallback nếu không tìm thấy
                 CustomerName = customer?.PersonName ?? "Unknown Cusstomer",
                 Services = reservation.Services.Select(s => new ServiceViewModel

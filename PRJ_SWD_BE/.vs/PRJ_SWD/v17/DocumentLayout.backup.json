@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "E:\\SWD\\PRJ_SWD_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|e:\\swd\\prj_swd_be\\prj_swd.application\\viewmodel\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|solutionrelative:prj_swd.application\\viewmodel\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|e:\\swd\\prj_swd_be\\prj_swd.application\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|solutionrelative:prj_swd.application\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\medicineservice\\medicineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\medicineservice\\medicineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\servicecontroller\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\servicecontroller\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|solutionrelative:prj_swd\\controllers\\reservationcontroller\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\controllers\\blogcontroller\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -81,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\staffservice\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\staffservice\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,26 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|e:\\swd\\prj_swd_be\\prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A90F033-8B1B-47F2-8F9D-F5968F816244}|PRJ_SWD.Business\\PRJ_SWD.Business.csproj|solutionrelative:prj_swd.business\\service\\reservationservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|e:\\swd\\prj_swd_be\\prj_swd.application\\viewmodel\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|solutionrelative:prj_swd.application\\viewmodel\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|e:\\swd\\prj_swd_be\\prj_swd.application\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|solutionrelative:prj_swd.application\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84A3141F-FBE0-4861-92A9-C4A99ABBF572}|PRJ_SWD.Application\\PRJ_SWD.Application.csproj|e:\\swd\\prj_swd_be\\prj_swd.application\\viewmodel\\staffviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -193,10 +197,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|e:\\swd\\prj_swd_be\\prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6624822F-945D-4143-9215-09035D963567}|PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj|solutionrelative:prj_swd.dal\\models\\prjswdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1162EB3-BC65-410B-A4C2-DB0D7DB0206D}|PRJ_SWD\\PRJ_SWD.csproj|e:\\swd\\prj_swd_be\\prj_swd\\wwwroot\\images\\7686213c-0cb1-4606-91f9-08195ec27fa5.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -282,7 +282,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -290,68 +290,162 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MedicineController.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
-              "RelativeToolTip": "PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T12:38:28.244Z",
+              "WhenOpened": "2025-06-21T02:57:37.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMedicineService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T12:24:41.18Z"
+              "WhenOpened": "2025-06-21T03:08:26.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs*",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T03:18:34.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationViewModel.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
+              "RelativeToolTip": "PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:08:50.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
-              "RelativeToolTip": "PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T16:05:38.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
               "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
               "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
               "RelativeToolTip": "PRJ_SWD\\Controllers\\ReservationController\\ReservationController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:33:51.121Z"
+              "WhenOpened": "2025-06-21T06:33:51.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
-              "RelativeToolTip": "PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAJAAAAAAAAAA==",
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:28:09.204Z"
+              "WhenOpened": "2025-07-08T06:38:06.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:40:05.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Reservation.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Reservation.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:28:08.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceViewModel.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
+              "RelativeToolTip": "PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:08:54.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrjSwdContext.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIA6wCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:29:04.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedicineService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:30:20.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Medicine.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Medicine.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Medicine.cs",
+              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T11:51:53.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Program.cs",
               "RelativeDocumentMoniker": "PRJ_SWD\\Program.cs",
@@ -363,33 +457,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MedicineService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\MedicineService\\MedicineService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "RelativeToolTip": "PRJ_SWD\\Controllers\\ServiceController\\ServiceController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T12:30:20.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T06:28:09.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Medicine.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Medicine.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Medicine.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Medicine.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Medicine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
+              "RelativeToolTip": "PRJ_SWD\\Controllers\\BlogController\\BlogController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T11:51:53.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T16:05:38.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
+              "Title": "IMedicineService.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
+              "RelativeToolTip": "PRJ_SWD.Business\\Service\\MedicineService\\IMedicineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:24:41.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicineController.cs",
+              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
+              "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
+              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
+              "RelativeToolTip": "PRJ_SWD\\Controllers\\MedicineController\\MedicineController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:38:28.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "IMedicineRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IMedicineRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IMedicineRepository.cs",
@@ -401,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "MedicineRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\MedicineRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\MedicineRepository.cs",
@@ -413,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IBlogRepository.cs",
@@ -425,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "BlogService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\BlogService\\BlogService.cs",
@@ -437,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "IServiceService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\IServiceService.cs",
@@ -449,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "IReservationRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IReservationRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IReservationRepository.cs",
@@ -461,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\appsettings.json",
               "RelativeDocumentMoniker": "PRJ_SWD\\appsettings.json",
@@ -473,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\BlogService\\IBlogService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\BlogService\\IBlogService.cs",
@@ -485,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\appsettings.json",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\appsettings.json",
@@ -497,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Program.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Program.cs",
@@ -509,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "PRJ_SWD.Business.csproj",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\PRJ_SWD.Business.csproj",
@@ -521,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "BlogDto.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\DTO\\BlogDto.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Application\\DTO\\BlogDto.cs",
@@ -533,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "ServiceRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ServiceRepository.cs",
@@ -545,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\BlogRepository.cs",
@@ -557,19 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IServiceRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IServiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T06:40:05.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "ServiceService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ServiceService\\ServiceService.cs",
@@ -581,19 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Reservation.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Reservation.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:28:08.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "BlogViewModel.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\BlogViewModel.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Application\\ViewModel\\BlogViewModel.cs",
@@ -605,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "Blog.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Blog.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Blog.cs",
@@ -617,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "ReservationCreateDto.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\DTO\\ReservationCreateDto.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Application\\DTO\\ReservationCreateDto.cs",
@@ -629,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "IStaffService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\StaffService\\IStaffService.cs",
@@ -641,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "StaffService.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\StaffService\\StaffService.cs",
@@ -653,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "StaffRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\StaffRepository.cs",
@@ -665,79 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IStaffRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\IStaffRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T06:38:06.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Repository\\ReservationRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwFUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T02:57:37.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\ReservationService.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAYwFIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:18:34.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IReservationService.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "RelativeToolTip": "PRJ_SWD.Business\\Service\\ReservationService\\IReservationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:08:26.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ReservationViewModel.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
-              "RelativeToolTip": "PRJ_SWD.Application\\ViewModel\\ReservationViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:08:50.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ServiceViewModel.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
-              "RelativeToolTip": "PRJ_SWD.Application\\ViewModel\\ServiceViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:08:54.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "StaffViewModel.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\ViewModel\\StaffViewModel.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Application\\ViewModel\\StaffViewModel.cs",
@@ -749,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ReservationUpdateDtocs.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\DTO\\ReservationUpdateDtocs.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Application\\DTO\\ReservationUpdateDtocs.cs",
@@ -761,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "PRJ_SWD.DAL.csproj",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
@@ -773,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Class1.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\Class1.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.Application\\Class1.cs",
@@ -785,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Service.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Service.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Service.cs",
@@ -797,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\UnitOfWork.cs",
@@ -809,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "StaffController.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\Controllers\\StaffController\\StaffController.cs",
               "RelativeDocumentMoniker": "PRJ_SWD\\Controllers\\StaffController\\StaffController.cs",
@@ -821,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "IRepository.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Infracstructure\\IRepository.cs",
@@ -833,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "MedicalExamination.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\MedicalExamination.cs",
@@ -845,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Account.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Account.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Account.cs",
@@ -857,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Schedule.cs",
               "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\Schedule.cs",
               "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\Schedule.cs",
@@ -866,18 +886,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T04:28:09.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "PrjSwdContext.cs",
-              "DocumentMoniker": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "RelativeDocumentMoniker": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "ToolTip": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "RelativeToolTip": "PRJ_SWD.DAL\\Models\\PrjSwdContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T04:29:04.534Z"
             },
             {
               "$type": "Document",

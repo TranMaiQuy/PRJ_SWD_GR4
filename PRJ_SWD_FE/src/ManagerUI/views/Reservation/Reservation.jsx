@@ -58,38 +58,38 @@ const Reservation = () => {
       <h2>Reservation List</h2>
       <button onClick={handleCreate}>+ Create Reservation</button>
       <br /><br />
-      <table border="1" cellPadding="8" style={{ borderCollapse: "collapse" }}>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Customer ID</th>
-            <th>Staff ID</th>
-            <th>Created Date</th>
-            <th>Reservation Date</th>
-            <th>Status</th>
-            <th>Note</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {reservations.map((r) => (
-            <tr key={r.reservationId}>
-              <td>{r.reservationId}</td>
-              <td>{r.customerId}</td>
-              <td>{r.staffId}</td>
-              <td>{r.createdDate}</td>
-              <td>{r.reservationDate}</td>
-              <td>{r.status}</td>
-              <td>{r.note}</td>
-              <td>
-                <button onClick={() => handleDetail(r.reservationId)}>Detail</button>{" "}
-                <button onClick={() => handleEdit(r.reservationId)}>Edit</button>{" "}
-                <button onClick={() => handleDelete(r.reservationId)}>Delete</button>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+     <table border="1" cellPadding="8" style={{ borderCollapse: "collapse" }}>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Customer Name</th>
+      <th>Staff Name</th>
+      <th>Created Date</th>
+      <th>Reservation Date</th>
+      <th>Status</th>
+      <th>Note</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {reservations.map((r) => (
+      <tr key={r.reservationId}>
+        <td>{r.reservationId}</td>
+        <td>{r.customerName}</td> {/* ✅ Đã đổi từ customerId */}
+        <td>{r.staffName}</td>     {/* ✅ Đã đổi từ staffId */}
+        <td>{r.createdDate}</td>
+        <td>{r.reservationDate}</td>
+        <td>{r.status}</td>
+        <td>{r.note}</td>
+        <td>
+          <button onClick={() => handleDetail(r.reservationId)}>Detail</button>{" "}
+          <button onClick={() => handleEdit(r.reservationId)}>Edit</button>{" "}
+          <button onClick={() => handleDelete(r.reservationId)}>Delete</button>
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
     </div>
   );
 };
