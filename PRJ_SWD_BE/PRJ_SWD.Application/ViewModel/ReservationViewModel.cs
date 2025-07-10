@@ -13,7 +13,7 @@ namespace PRJ_SWD.Application.ViewModel
         public string Note { get; set; } = null!;
         public string StaffName { get; set; } = null!;
         public int StaffId { get; set; }
-
+        public DateOnly? CreatedDate { get; set; }
         public int Status { get; set; }
         public string CustomerName { get; set; } = null!;
         public List<ServiceViewModel> Services { get; set; } = new();

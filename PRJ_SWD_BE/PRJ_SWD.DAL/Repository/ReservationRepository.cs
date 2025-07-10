@@ -49,7 +49,7 @@ namespace PRJ_SWD.DAL.Repository
 
         public List<Reservation> List()
         {
-            return _context.Reservations.ToList();
+            return _context.Reservations.Include(a => a.Customer).ToList();
         }
 
 
