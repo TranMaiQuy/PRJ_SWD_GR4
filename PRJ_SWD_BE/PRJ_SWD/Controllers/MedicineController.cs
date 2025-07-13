@@ -4,7 +4,7 @@ using PRJ_SWD.Business.Service.MedicineService;
 using PRJ_SWD.Business.Service.ServiceService;
 using PRJ_SWD.DAL.Models;
 
-namespace PRJ_SWD.Controllers.MedicineController
+namespace PRJ_SWD.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

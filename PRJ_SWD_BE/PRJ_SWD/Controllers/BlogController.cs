@@ -3,7 +3,7 @@ using PRJ_SWD.Business.Service.BlogService;
 using PRJ_SWD.Application.DTO;
 
 
-namespace PRJ_SWD.Controllers.BlogController
+namespace PRJ_SWD.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

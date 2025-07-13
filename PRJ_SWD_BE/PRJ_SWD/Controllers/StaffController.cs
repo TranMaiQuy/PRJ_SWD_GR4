@@ -2,7 +2,7 @@
 using PRJ_SWD.Business.Service.ServiceService;
 using PRJ_SWD.Business.Service.StaffService;
 
-namespace PRJ_SWD.Controllers.StaffController
+namespace PRJ_SWD.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

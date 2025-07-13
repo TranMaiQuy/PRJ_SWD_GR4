@@ -2,7 +2,7 @@
 using PRJ_SWD.Application.DTO;
 using PRJ_SWD.Business.Service.ServiceService;
 
-namespace PRJ_SWD.Controllers.ServiceController
+namespace PRJ_SWD.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

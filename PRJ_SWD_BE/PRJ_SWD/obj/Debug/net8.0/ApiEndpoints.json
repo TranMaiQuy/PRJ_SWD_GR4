@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "ContainingType": "PRJ_SWD.Controllers.BlogController",
     "Method": "GetById",
     "RelativePath": "api/Blog/{id}",
     "HttpMethod": "GET",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "ContainingType": "PRJ_SWD.Controllers.BlogController",
     "Method": "Edit",
     "RelativePath": "api/Blog/{id}",
     "HttpMethod": "PUT",
@@ -67,7 +67,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "ContainingType": "PRJ_SWD.Controllers.BlogController",
     "Method": "Delete",
     "RelativePath": "api/Blog/{id}",
     "HttpMethod": "DELETE",
@@ -83,7 +83,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "ContainingType": "PRJ_SWD.Controllers.BlogController",
     "Method": "Create",
     "RelativePath": "api/Blog/create",
     "HttpMethod": "POST",
@@ -129,7 +129,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "ContainingType": "PRJ_SWD.Controllers.BlogController",
     "Method": "Detail",
     "RelativePath": "api/Blog/detail",
     "HttpMethod": "GET",
@@ -145,7 +145,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.BlogController.BlogController",
+    "ContainingType": "PRJ_SWD.Controllers.BlogController",
     "Method": "List",
     "RelativePath": "api/Blog/list",
     "HttpMethod": "GET",
@@ -155,7 +155,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
+    "ContainingType": "PRJ_SWD.Controllers.MedicineController",
     "Method": "Delete",
     "RelativePath": "api/Medicine/{id}",
     "HttpMethod": "DELETE",
@@ -171,7 +171,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
+    "ContainingType": "PRJ_SWD.Controllers.MedicineController",
     "Method": "Create",
     "RelativePath": "api/Medicine/create",
     "HttpMethod": "POST",
@@ -187,7 +187,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
+    "ContainingType": "PRJ_SWD.Controllers.MedicineController",
     "Method": "Detail",
     "RelativePath": "api/Medicine/detail/{id}",
     "HttpMethod": "GET",
@@ -203,7 +203,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
+    "ContainingType": "PRJ_SWD.Controllers.MedicineController",
     "Method": "Update",
     "RelativePath": "api/Medicine/edit/{id}",
     "HttpMethod": "PUT",
@@ -224,7 +224,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.MedicineController.MedicineController",
+    "ContainingType": "PRJ_SWD.Controllers.MedicineController",
     "Method": "List",
     "RelativePath": "api/Medicine/list",
     "HttpMethod": "GET",
@@ -234,7 +234,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController",
     "Method": "Delete",
     "RelativePath": "api/Reservation/{id}",
     "HttpMethod": "DELETE",
@@ -250,7 +250,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController",
     "Method": "Edit",
     "RelativePath": "api/Reservation/{id}",
     "HttpMethod": "PUT",
@@ -271,7 +271,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController",
     "Method": "Create",
     "RelativePath": "api/Reservation/create",
     "HttpMethod": "POST",
@@ -287,7 +287,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController",
     "Method": "Detail",
     "RelativePath": "api/Reservation/detail/{id}",
     "HttpMethod": "GET",
@@ -303,7 +303,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ReservationController.ReservationController",
+    "ContainingType": "PRJ_SWD.Controllers.ReservationController",
     "Method": "List",
     "RelativePath": "api/Reservation/list",
     "HttpMethod": "GET",
@@ -313,7 +313,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ServiceController.ServiceController",
+    "ContainingType": "PRJ_SWD.Controllers.ServiceController",
     "Method": "Update",
     "RelativePath": "api/Service/{id}",
     "HttpMethod": "PUT",
@@ -334,7 +334,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ServiceController.ServiceController",
+    "ContainingType": "PRJ_SWD.Controllers.ServiceController",
     "Method": "Delete",
     "RelativePath": "api/Service/{id}",
     "HttpMethod": "DELETE",
@@ -350,7 +350,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ServiceController.ServiceController",
+    "ContainingType": "PRJ_SWD.Controllers.ServiceController",
     "Method": "Create",
     "RelativePath": "api/Service/create",
     "HttpMethod": "POST",
@@ -366,7 +366,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ServiceController.ServiceController",
+    "ContainingType": "PRJ_SWD.Controllers.ServiceController",
     "Method": "Detail",
     "RelativePath": "api/Service/detail/{id}",
     "HttpMethod": "GET",
@@ -382,7 +382,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.ServiceController.ServiceController",
+    "ContainingType": "PRJ_SWD.Controllers.ServiceController",
     "Method": "List",
     "RelativePath": "api/Service/list",
     "HttpMethod": "GET",
@@ -392,7 +392,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PRJ_SWD.Controllers.StaffController.StaffController",
+    "ContainingType": "PRJ_SWD.Controllers.StaffController",
     "Method": "List",
     "RelativePath": "api/Staff/list",
     "HttpMethod": "",
