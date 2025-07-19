@@ -59,37 +59,66 @@ function UpdateBlog() {
     }
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const form = new FormData();
-    form.append('blogId', formData.blogId);
-    form.append('title', formData.title);
-    form.append('content', formData.content);
-    form.append('description', formData.description);
-    form.append('createdDate', formData.createdDate);
-    form.append('personId', formData.personId);
-    form.append('categoryId', formData.categoryId);
-    if (selectedFile) {
-      form.append('image', selectedFile); // gửi file
+  // Validate personId và categoryId
+  if (Number(formData.personId) <= 0) {
+    alert("Person ID phải lớn hơn 0.");
+    return;
+  }
+
+  if (Number(formData.categoryId) <= 0) {
+    alert("Category ID phải lớn hơn 0.");
+    return;
+  }
+
+  // Validate ảnh nếu có
+  if (selectedFile) {
+    const validTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/gif'];
+    const maxSizeInMB = 5;
+
+    if (!validTypes.includes(selectedFile.type)) {
+      alert("File ảnh không hợp lệ. Chỉ chấp nhận JPEG, PNG, JPG, GIF.");
+      return;
     }
 
-    try {
-      const response = await fetch(`https://localhost:7012/api/blog/${id}`, {
-        method: 'PUT',
-        body: form // KHÔNG set Content-Type, browser sẽ tự gán đúng kiểu multipart/form-data
-      });
-
-      if (response.ok) {
-        alert('Cập nhật thành công!');
-      } else {
-        alert('Lỗi cập nhật. Mã lỗi: ' + response.status);
-      }
-    } catch (error) {
-      console.error('Lỗi khi gửi yêu cầu cập nhật:', error);
-      alert('Lỗi hệ thống khi cập nhật.');
+    if (selectedFile.size > maxSizeInMB * 1024 * 1024) {
+      alert(`Kích thước ảnh vượt quá ${maxSizeInMB}MB`);
+      return;
     }
-  };
+  }
+
+  const form = new FormData();
+  form.append('blogId', formData.blogId);
+  form.append('title', formData.title);
+  form.append('content', formData.content);
+  form.append('description', formData.description);
+  form.append('createdDate', formData.createdDate);
+  form.append('personId', formData.personId);
+  form.append('categoryId', formData.categoryId);
+
+  if (selectedFile) {
+    form.append('image', selectedFile); // gửi file
+  }
+
+  try {
+    const response = await fetch(`https://localhost:7012/api/blog/${id}`, {
+      method: 'PUT',
+      body: form // KHÔNG set Content-Type, browser sẽ tự gán đúng kiểu multipart/form-data
+    });
+
+    if (response.ok) {
+      alert('Cập nhật thành công!');
+    } else {
+      alert('Lỗi cập nhật. Mã lỗi: ' + response.status);
+    }
+  } catch (error) {
+    console.error('Lỗi khi gửi yêu cầu cập nhật:', error);
+    alert('Lỗi hệ thống khi cập nhật.');
+  }
+};
+
 
   if (loading) return <p>Đang tải dữ liệu...</p>;
 
