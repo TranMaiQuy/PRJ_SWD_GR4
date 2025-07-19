@@ -36,23 +36,30 @@ const MedicineEdit = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    fetch(`https://localhost:7012/api/medicine/edit/${id}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(form),
+  // Kiểm tra hợp lệ
+  if (form.quantity <= 0 || form.price <= 0) {
+    alert("Số lượng và giá phải lớn hơn 0");
+    return;
+  }
+
+  fetch(`https://localhost:7012/api/medicine/edit/${id}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(form),
+  })
+    .then((res) => {
+      if (!res.ok) throw new Error("Không thể cập nhật thuốc");
+      alert("Cập nhật thuốc thành công!");
+      window.location.href = "/medicine";
     })
-      .then((res) => {
-        if (!res.ok) throw new Error("Không thể cập nhật thuốc");
-        alert("Cập nhật thuốc thành công!");
-        window.location.href = "/medicine";
-      })
-      .catch((err) => {
-        console.error("Lỗi khi cập nhật thuốc:", err);
-        alert("Lỗi khi cập nhật thuốc");
-      });
-  };
+    .catch((err) => {
+      console.error("Lỗi khi cập nhật thuốc:", err);
+      alert("Lỗi khi cập nhật thuốc");
+    });
+};
+
 
   if (loading) return <p>Đang tải dữ liệu...</p>;
 
