@@ -234,6 +234,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PRJ_SWD.Controllers.MedicinePrescriptionController",
+    "Method": "Delete",
+    "RelativePath": "api/prescription/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.MedicinePrescriptionController",
+    "Method": "Create",
+    "RelativePath": "api/prescription/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prescription",
+        "Type": "PRJ_SWD.Application.DTO.MedicinePrescriptionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.MedicinePrescriptionController",
+    "Method": "Detail",
+    "RelativePath": "api/prescription/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.MedicinePrescriptionController",
+    "Method": "Update",
+    "RelativePath": "api/prescription/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "prescription",
+        "Type": "PRJ_SWD.Application.DTO.MedicinePrescriptionUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.MedicinePrescriptionController",
+    "Method": "List",
+    "RelativePath": "api/prescription/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PRJ_SWD.Controllers.ReservationController",
     "Method": "Delete",
     "RelativePath": "api/Reservation/{id}",

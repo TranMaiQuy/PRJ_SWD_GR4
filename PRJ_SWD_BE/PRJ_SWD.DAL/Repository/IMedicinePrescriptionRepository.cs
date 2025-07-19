@@ -17,5 +17,6 @@ namespace PRJ_SWD.DAL.Repository
 
         Account FindStaff(Prescription prescription);
         Account FindCustomer(Prescription prescription);
+        Medicine FindMedicine(Prescription prescription);
     }
 }

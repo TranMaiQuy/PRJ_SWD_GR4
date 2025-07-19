@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PRJ_SWD.Application.DTO;
 using PRJ_SWD.Application.ViewModel;
 using PRJ_SWD.DAL.Infracstructure;
 using PRJ_SWD.DAL.Models;
@@ -20,8 +21,19 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
             this.unitOfWork = unitOfWork;
         }
 
-        public void AddPrescription(Prescription prescription)
+        public void AddPrescription(MedicinePrescriptionDto dto)
         {
+            var prescription = new Prescription
+            {
+                 ExaminationId = dto.ExaminationId,
+                 DoctorId = dto.DoctorId,
+                 CustomerId = dto.CustomerId,
+                 MedicineId = dto.MedicineId,
+                 Dosage = dto.Dosage,
+                 Note = dto.Note,
+                 TotalCost = dto.TotalCost,
+    
+    };
 
             medicinePrescriptionRepository.Add(prescription);
             unitOfWork.Commit();
@@ -46,13 +58,14 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
 
                 var staff = medicinePrescriptionRepository.FindStaff(prescription);
                 var customer = medicinePrescriptionRepository.FindCustomer(prescription);
-
+                var medicine = medicinePrescriptionRepository.FindMedicine(prescription);
                 result.Add(new PrescriptionViewModel
                 {
                     PrescriptionId = prescription.PrescriptionId,
                     DoctorName = staff.PersonName,             // hoặc staff.Name tùy property bạn có
-                    CustomerName = customer.PersonName,        // hoặc customer.Name
-                    MedicineName = prescription.MedicineId,  // hiện tại là int, nếu cần string thì phải lấy tên thuốc
+                    CustomerName = customer.PersonName,  
+                  
+                    MedicineName = medicine.Name,  // hiện tại là int, nếu cần string thì phải lấy tên thuốc
                     Dosage = prescription.Dosage,
                     Note = prescription.Note,
                     TotalCost = prescription.TotalCost
@@ -67,7 +80,7 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
            return  medicinePrescriptionRepository.GetById(id);
         }
 
-        public Prescription UpdatePrescription(int id, Prescription prescription)
+        public Prescription UpdatePrescription(int id, MedicinePrescriptionUpdateDto prescription)
         {
             var existeingPrescription = medicinePrescriptionRepository.GetById(id);
            

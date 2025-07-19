@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PRJ_SWD.Application.DTO;
 using PRJ_SWD.Business.Service.MedicinePrescriptionService;
 using PRJ_SWD.Business.Service.MedicineService;
 using PRJ_SWD.DAL.Models;
@@ -29,16 +30,16 @@ namespace PRJ_SWD.Controllers
         }
 
         [HttpPost("create")]
-        public IActionResult Create([FromBody] Prescription prescription)
+        public IActionResult Create([FromBody] MedicinePrescriptionDto prescription)
         {
             service.AddPrescription(prescription);
-            return Ok(new { message = "Service created successfully" });
+            return Ok(new { message = "Prescription created successfully" });
         }
 
         [HttpPut("edit/{id}")]
-        public IActionResult Update(int id, [FromBody] Prescription prescription)
+        public IActionResult Update(int id, [FromBody] MedicinePrescriptionUpdateDto prescription)
         {
-            if (id != prescription.MedicineId) return BadRequest();
+            if (id != prescription.PrescriptionId) return BadRequest();
             service.UpdatePrescription(id, prescription);
             return Ok(new { message = "Prescription updated successfully" });
         }

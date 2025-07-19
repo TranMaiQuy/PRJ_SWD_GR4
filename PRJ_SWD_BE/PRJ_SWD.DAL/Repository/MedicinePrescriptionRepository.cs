@@ -59,5 +59,10 @@ namespace PRJ_SWD.DAL.Repository
         {
             return _context.Accounts.FirstOrDefault(a => a.PersonId == prescription.CustomerId);
         }
+
+         public Medicine FindMedicine(Prescription prescription)
+        {
+            return _context.Medicines.FirstOrDefault(a => a.MedicineId == prescription.MedicineId);
+        }
     }
 }
