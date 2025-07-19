@@ -32,34 +32,63 @@ function CreateBlog() {
     }
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const formDataToSend = new FormData();
-    formDataToSend.append("title", formData.title);
-    formDataToSend.append("description", formData.description);
-    formDataToSend.append("content", formData.content);
-    formDataToSend.append("personId", formData.personId);
-    formDataToSend.append("categoryId", formData.categoryId);
-    formDataToSend.append("image", formData.imageFile);
+  // Validate ảnh trước khi gửi
+  const file = formData.imageFile;
+  const validTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/gif'];
+  const maxSizeInMB = 5;
 
-    try {
-      const response = await fetch("https://localhost:7012/api/blog/create", {
-        method: "POST",
-        body: formDataToSend
-      });
+  if (!file) {
+    alert("Vui lòng chọn một ảnh.");
+    return;
+  }
 
-      if (!response.ok) throw new Error("Tạo blog thất bại");
+  if (!validTypes.includes(file.type)) {
+    alert("File ảnh không hợp lệ. Chỉ chấp nhận JPEG, PNG, JPG, GIF.");
+    return;
+  }
 
-      // Nếu không dùng result thì không cần khai báo nó
-      await response.json();
+  if (file.size > maxSizeInMB * 1024 * 1024) {
+    alert(`Kích thước ảnh vượt quá ${maxSizeInMB}MB`);
+    return;
+  }
+  if (Number(formData.personId) <= 0) {
+    alert("Person ID phải lớn hơn 0.");
+    return;
+  }
 
-      alert("Tạo blog thành công!");
-    } catch (error) {
-      console.error("Lỗi tạo blog:", error);
-      alert("Có lỗi xảy ra khi tạo blog.");
-    }
-  };
+  if (Number(formData.categoryId) <= 0) {
+    alert("Category ID phải lớn hơn 0.");
+    return;
+  }
+
+
+  const formDataToSend = new FormData();
+  formDataToSend.append("title", formData.title);
+  formDataToSend.append("description", formData.description);
+  formDataToSend.append("content", formData.content);
+  formDataToSend.append("personId", formData.personId);
+  formDataToSend.append("categoryId", formData.categoryId);
+  formDataToSend.append("image", file);
+
+  try {
+    const response = await fetch("https://localhost:7012/api/blog/create", {
+      method: "POST",
+      body: formDataToSend
+    });
+
+    if (!response.ok) throw new Error("Tạo blog thất bại");
+
+    await response.json();
+    alert("Tạo blog thành công!");
+  } catch (error) {
+    console.error("Lỗi tạo blog:", error);
+    alert("Có lỗi xảy ra khi tạo blog.");
+  }
+};
+
 
   return (
     <div className="form-container">
