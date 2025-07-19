@@ -7,6 +7,7 @@ using PRJ_SWD.Business.Service.BlogService;
 using PRJ_SWD.Business.Service.ServiceService;
 using PRJ_SWD.Business.Service.StaffService;
 using PRJ_SWD.Business.Service.MedicineService;
+using PRJ_SWD.Business.Service.MedicinePrescriptionService;
 
 namespace PRJ_SWD
 {
@@ -31,6 +32,8 @@ namespace PRJ_SWD
             builder.Services.AddScoped<StaffRepository>();
             builder.Services.AddScoped<IMedicineService, MedicineService>();
             builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
+            builder.Services.AddScoped<IMedicinePrescriptionService, MedicinePrescriptionService>();
+            builder.Services.AddScoped<IMedicinePrescriptionRepository, MedicinePrescriptionRepository>();
             builder.Services.AddDbContext<PrjSwdContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("MyDatabase")));
 
