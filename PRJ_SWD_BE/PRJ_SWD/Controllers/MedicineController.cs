@@ -34,22 +34,22 @@ namespace PRJ_SWD.Controllers
         public IActionResult Create([FromBody] Medicine medicine)
         {
             medicineService.AddMedicine(medicine);
-            return Ok(new { message = "Service created successfully" });
+            return Ok(new { message = "Medicine created successfully" });
         }
 
         [HttpPut("edit/{id}")]
         public IActionResult Update(int id, [FromBody] Medicine medicine)
         {
             if (id != medicine.MedicineId) return BadRequest();
-            medicineService.UpdateMedicine(id,medicine);
-            return Ok(new { message = "Service updated successfully" });
+            medicineService.UpdateMedicine(medicine);
+            return Ok(new { message = "Medicine updated successfully" });
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             medicineService.DeleteMedicine(id);
-            return Ok(new { message = "Service deleted successfully" });
+            return Ok(new { message = "Medicine deleted successfully" });
         }
     }
 }

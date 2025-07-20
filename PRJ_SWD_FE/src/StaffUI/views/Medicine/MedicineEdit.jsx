@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 const MedicineEdit = () => {
   const { id } = useParams();
   const [form, setForm] = useState({
+    medicineId: 0,
     name: "",
     quantity: 0,
     price: 0,
@@ -17,7 +18,10 @@ const MedicineEdit = () => {
         return res.json();
       })
       .then((data) => {
-        setForm(data);
+        setForm({
+          ...data,
+          medicineId: data.medicineId ?? Number(id), // đảm bảo có medicineId
+        });
         setLoading(false);
       })
       .catch((err) => {
@@ -29,37 +33,39 @@ const MedicineEdit = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm({
-      ...form,
+    setForm((prev) => ({
+      ...prev,
       [name]: name === "price" || name === "quantity" ? Number(value) : value,
-    });
+    }));
   };
 
   const handleSubmit = (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  // Kiểm tra hợp lệ
-  if (form.quantity <= 0 || form.price <= 0) {
-    alert("Số lượng và giá phải lớn hơn 0");
-    return;
-  }
+    // Kiểm tra hợp lệ
+    if (form.quantity <= 0 || form.price <= 0) {
+      alert("Số lượng và giá phải lớn hơn 0");
+      return;
+    }
 
-  fetch(`https://localhost:7012/api/medicine/edit/${id}`, {
-    method: "PUT",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(form),
-  })
-    .then((res) => {
-      if (!res.ok) throw new Error("Không thể cập nhật thuốc");
-      alert("Cập nhật thuốc thành công!");
-      window.location.href = "/medicine";
+    fetch(`https://localhost:7012/api/medicine/edit/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        ...form,
+        medicineId: form.medicineId ?? Number(id), // đảm bảo gửi đúng ID
+      }),
     })
-    .catch((err) => {
-      console.error("Lỗi khi cập nhật thuốc:", err);
-      alert("Lỗi khi cập nhật thuốc");
-    });
-};
-
+      .then((res) => {
+        if (!res.ok) throw new Error("Không thể cập nhật thuốc");
+        alert("Cập nhật thuốc thành công!");
+        window.location.href = "/medicine";
+      })
+      .catch((err) => {
+        console.error("Lỗi khi cập nhật thuốc:", err);
+        alert("Lỗi khi cập nhật thuốc");
+      });
+  };
 
   if (loading) return <p>Đang tải dữ liệu...</p>;
 

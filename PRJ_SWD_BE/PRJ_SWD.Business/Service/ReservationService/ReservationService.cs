@@ -108,9 +108,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
             return result;
         }
 
-        public Reservation UpdateReservation(int id, ReservationUpdateDto model)
+        public void UpdateReservation( ReservationUpdateDto model)
         {
-            var reservation = reservationRepository.FindReservation(id);
+            var reservation = reservationRepository.FindReservation(model.ReservationId);
             reservation.Note = model.Note;
             reservation.ReservationDate = DateOnly.Parse(model.ReservationDate);
             reservation.Status = model.Status;
@@ -122,9 +122,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
             {
                 reservationRepository.Find(model.ServiceIds[i], reservation);
             }
-            var result = reservationRepository.Update( reservation);
+             reservationRepository.Update( reservation);
             unitOfWork.Commit();
-            return result;
+            
 
         }
     }

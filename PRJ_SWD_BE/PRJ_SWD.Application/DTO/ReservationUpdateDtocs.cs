@@ -9,7 +9,7 @@ namespace PRJ_SWD.Application.DTO
 {
     public class ReservationUpdateDto
     {
-      
+        public int ReservationId { get; set; }
         public string? ReservationDate { get; set; }  
         public string Note { get; set; } = null!;
         public int Status { get; set; }

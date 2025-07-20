@@ -24,9 +24,9 @@ namespace PRJ_SWD.Controllers
         [HttpGet("detail/{id}")]
         public IActionResult Detail(int id)
         {
-            var medicine = service.GetPrescriptionById(id);
-            if (medicine == null) return NotFound();
-            return Ok(medicine);
+            var prescription = service.GetPrescriptionById(id);
+            if (prescription == null) return NotFound();
+            return Ok(prescription);
         }
 
         [HttpPost("create")]
@@ -40,7 +40,7 @@ namespace PRJ_SWD.Controllers
         public IActionResult Update(int id, [FromBody] MedicinePrescriptionUpdateDto prescription)
         {
             if (id != prescription.PrescriptionId) return BadRequest();
-            service.UpdatePrescription(id, prescription);
+            service.UpdatePrescription(prescription);
             return Ok(new { message = "Prescription updated successfully" });
         }
 

@@ -7,6 +7,7 @@ import MedicineDetail from "../views/Medicine/MedicineDetail"
 import Prescription from "../views/Prescription/Prescription"
 import PrescriptionCreate from "../views/Prescription/PrescriptionCreate"
 import PrescriptionEdit from "../views/Prescription/PrescriptionEdit";
+import PrescriptionDetail from "../views/Prescription/PrescriptionDetail";
 
 const staffRoutes = [
   <Route key="medicine" path="/medicine" element={<Medicine />} />,
@@ -16,6 +17,7 @@ const staffRoutes = [
   <Route key="prescription" path="/prescription" element={<Prescription />} />,
   <Route key="prescription-create" path="/prescription/create" element={<PrescriptionCreate />} />,
   <Route key="prescription-edit" path="/prescription/edit/:id" element={<PrescriptionEdit />} />,
+  <Route key="prescription-detail" path="/prescription/detail/:id" element={<PrescriptionDetail />} />,
 ];
 
 export default staffRoutes;

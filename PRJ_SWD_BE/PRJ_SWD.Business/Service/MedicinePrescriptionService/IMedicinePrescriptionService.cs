@@ -13,8 +13,8 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
     {
         void AddPrescription(MedicinePrescriptionDto prescription);
         void DeletePrescription(int id);
-        Prescription? GetPrescriptionById(int id);
+        PrescriptionViewModel? GetPrescriptionById(int id);
         List<PrescriptionViewModel> GetAllPrescription();
-        Prescription UpdatePrescription(int id, MedicinePrescriptionUpdateDto prescription);
+        void UpdatePrescription(MedicinePrescriptionUpdateDto prescription);
     }
 }

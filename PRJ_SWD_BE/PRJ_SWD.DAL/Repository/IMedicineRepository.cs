@@ -13,6 +13,6 @@ namespace PRJ_SWD.DAL.Repository
         void Delete(int id);
         Medicine? GetById(int id);
         List<Medicine> GetAll();
-        Medicine Update(Medicine medicine);
+        void Update(Medicine medicine);
     }
 }

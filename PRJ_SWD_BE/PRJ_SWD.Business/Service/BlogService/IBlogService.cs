@@ -13,7 +13,7 @@ namespace PRJ_SWD.Business.Service.BlogService
     {
        void AddBlog(BlogDto blog);
         void DeleteBlog(int id);
-       Blog UpdateBlog(int id, BlogDto blog);
+        void UpdateBlog(BlogDto blog);
         List<BlogViewModel> GetAllBlog();
         Blog GetBlogById(int id);
     }
