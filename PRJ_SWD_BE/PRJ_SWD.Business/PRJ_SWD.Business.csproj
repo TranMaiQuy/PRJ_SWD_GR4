@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PRJ_SWD.Application\PRJ_SWD.Application.csproj" />
     <ProjectReference Include="..\PRJ_SWD.DAL\PRJ_SWD.DAL.csproj" />
   </ItemGroup>
 

@@ -9,5 +9,6 @@ namespace PRJ_SWD.DAL.Infracstructure
     public interface IUnitOfWork
     {
         void Commit();
+        Task CommitAsync();
     }
 }
