@@ -9,7 +9,7 @@ using PRJ_SWD.Application.ViewModel;
 
 namespace PRJ_SWD.Business.Service.BlogService
 {
-    internal interface IBlogService
+    public interface IBlogService
     {
        void AddBlog(BlogDto blog);
         void DeleteBlog(int id);

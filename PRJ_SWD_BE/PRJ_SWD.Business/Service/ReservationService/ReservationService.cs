@@ -14,9 +14,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
 {
     public class ReservationService : IReservationService
     {
-       public  ReservationRepository reservationRepository;
+       public IReservationRepository reservationRepository;
        public IUnitOfWork unitOfWork;
-       public ReservationService(ReservationRepository reservationRepository, IUnitOfWork unitOfWork)
+       public ReservationService(IReservationRepository reservationRepository, IUnitOfWork unitOfWork)
         {
             this.reservationRepository = reservationRepository;
             this.unitOfWork = unitOfWork;

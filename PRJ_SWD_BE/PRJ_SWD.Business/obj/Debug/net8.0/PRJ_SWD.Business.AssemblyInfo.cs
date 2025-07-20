@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRJ_SWD.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e3036d7909ba034f1635c2263d32a68e2b08a04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5aa3b9076347b1e454fb57f0d3c8b6b74412e64")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRJ_SWD.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRJ_SWD.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

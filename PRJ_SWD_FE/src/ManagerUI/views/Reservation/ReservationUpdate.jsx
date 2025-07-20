@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams} from "react-router-dom";
 
 function ReservationUpdate() {
   const { id } = useParams();
-  const navigate = useNavigate();
+  
 
   const [formData, setFormData] = useState({
     reservationId: 0,
@@ -140,7 +140,7 @@ function ReservationUpdate() {
 
       if (!res.ok) throw new Error("Update failed");
       alert("Reservation updated successfully!");
-      navigate(`/reservation/detail/${id}`);
+  
     } catch (err) {
       console.error("Update error:", err);
       alert("Update failed.");

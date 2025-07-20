@@ -17,5 +17,11 @@ namespace PRJ_SWD.DAL.Repository
         Reservation FindReservation(int id);
         List<Reservation> List();
         void Update(Reservation model);
+
+        Account FindStaff(Reservation reservation);
+        Account FindCustomer(Reservation reservation);
+
+        void ClearService(Reservation reservation);
+        Service Find(int id, Reservation reservation);
     }
 }

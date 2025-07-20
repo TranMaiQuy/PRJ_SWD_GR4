@@ -20,10 +20,10 @@ namespace PRJ_SWD
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddScoped<ReservationService>();
-            builder.Services.AddScoped<ReservationRepository>();
-            builder.Services.AddScoped<BlogService>();
-            builder.Services.AddScoped<BlogRepository>();
+            builder.Services.AddScoped<IReservationService, ReservationService>();
+            builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+            builder.Services.AddScoped<IBlogService, BlogService>();
+            builder.Services.AddScoped<IBlogRepository, BlogRepository>();
             builder.Services.AddScoped<ServiceService>();
             builder.Services.AddScoped<ServiceRepository>();
             builder.Services.AddScoped<IServiceService, ServiceService>();
