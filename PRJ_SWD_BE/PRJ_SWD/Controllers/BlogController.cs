@@ -9,8 +9,8 @@ namespace PRJ_SWD.Controllers
     [Route("api/[controller]")]
     public class BlogController : ControllerBase
     {
-        private readonly BlogService service;
-        public BlogController(BlogService service)
+        private readonly IBlogService service;
+        public BlogController(IBlogService service)
         {
             this.service = service;
         }

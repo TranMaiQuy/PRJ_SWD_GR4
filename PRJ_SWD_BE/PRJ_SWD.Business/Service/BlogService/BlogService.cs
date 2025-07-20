@@ -13,9 +13,9 @@ namespace PRJ_SWD.Business.Service.BlogService
 {
     public class BlogService : IBlogService
     {
-        public BlogRepository repository;
+        public IBlogRepository repository;
         public IUnitOfWork unitOfWork;
-      public BlogService(BlogRepository repository, IUnitOfWork unitOfWork)
+      public BlogService(IBlogRepository repository, IUnitOfWork unitOfWork)
         {
             this.repository = repository;
             this.unitOfWork = unitOfWork;

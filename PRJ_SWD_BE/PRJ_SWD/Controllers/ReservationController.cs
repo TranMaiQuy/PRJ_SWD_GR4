@@ -10,9 +10,9 @@ namespace PRJ_SWD.Controllers
     [Route("api/[controller]")]
     public class ReservationController : ControllerBase
     {
-        private readonly ReservationService reservationService;
+        private readonly IReservationService reservationService;
 
-        public ReservationController(ReservationService reservationService)
+        public ReservationController(IReservationService reservationService)
         {
             this.reservationService = reservationService;
         }
