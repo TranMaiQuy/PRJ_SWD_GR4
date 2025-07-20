@@ -6,6 +6,7 @@ function ReservationUpdate() {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
+    reservationId: 0,
     reservationDate: "",
     note: "",
     status: 0,
@@ -19,46 +20,44 @@ function ReservationUpdate() {
   const [allStaffs, setAllStaffs] = useState([]);
   const [loading, setLoading] = useState(true);
 
-useEffect(() => {
-  const fetchAllData = async () => {
-    try {
-      const [reservationRes, servicesRes, staffsRes] = await Promise.all([
-        fetch(`https://localhost:7012/api/reservation/detail/${id}`),
-        fetch(`https://localhost:7012/api/service/list`),
-        fetch(`https://localhost:7012/api/staff/list`)
-      ]);
+  useEffect(() => {
+    const fetchAllData = async () => {
+      try {
+        const [reservationRes, servicesRes, staffsRes] = await Promise.all([
+          fetch(`https://localhost:7012/api/reservation/detail/${id}`),
+          fetch(`https://localhost:7012/api/service/list`),
+          fetch(`https://localhost:7012/api/staff/list`)
+        ]);
 
-      if (!reservationRes.ok || !servicesRes.ok || !staffsRes.ok)
-        throw new Error("Failed to load data");
+        if (!reservationRes.ok || !servicesRes.ok || !staffsRes.ok)
+          throw new Error("Failed to load data");
 
-      const reservationData = await reservationRes.json();
-      const servicesData = await servicesRes.json();
-      const staffsData = await staffsRes.json();
+        const reservationData = await reservationRes.json();
+        const servicesData = await servicesRes.json();
+        const staffsData = await staffsRes.json();
 
-     
+        setFormData({
+          reservationId: reservationData.reservationId ?? Number(id),
+          reservationDate: reservationData.reservationDate,
+          note: reservationData.note,
+          status: reservationData.status,
+          staffId: reservationData.staffId,
+          personId: reservationData.customerId,
+          customerName: reservationData.customerName,
+          selectedServiceIds: reservationData.services.map(s => s.serviceId),
+        });
 
-      setFormData({
-        reservationDate: reservationData.reservationDate,
-        note: reservationData.note,
-        status: reservationData.status,
-        staffId: reservationData.staffId, // fix chỗ này
-        personId: reservationData.customerId,
-        customerName: reservationData.customerName,
-        selectedServiceIds: reservationData.services.map(s => s.serviceId),
-      });
+        setAllServices(servicesData);
+        setAllStaffs(staffsData);
+        setLoading(false);
+      } catch (err) {
+        console.error("Load error:", err);
+        setLoading(false);
+      }
+    };
 
-      setAllServices(servicesData);
-      setAllStaffs(staffsData);
-      setLoading(false);
-    } catch (err) {
-      console.error("Load error:", err);
-      setLoading(false);
-    }
-  };
-
-  fetchAllData();
-}, [id]);
-
+    fetchAllData();
+  }, [id]);
 
   const handleChange = (e) => {
     const { name, value, checked, type } = e.target;
@@ -87,73 +86,66 @@ useEffect(() => {
       };
     });
   };
-const getDefaultStaffName = () => {
-  console.log("🔍 Current staffId from formData:", formData.staffId);
-  console.log("🗂 All Staffs:", allStaffs);
 
-  const staff = allStaffs.find(s => s.personId === formData.staffId);
-
-  console.log("✅ Matched Staff:", staff);
-
-  return staff ? staff.personName : "Select Staff";
-};
- const handleSubmit = async (e) => {
-  e.preventDefault();
-
-  // ✅ Validate ngày không được trống
-  if (!formData.reservationDate) {
-    alert("Vui lòng chọn ngày đặt.");
-    return;
-  }
-
-  // ✅ Validate ngày phải sau hiện tại
-  const selectedDate = new Date(formData.reservationDate + "T00:00:00");
-  const today = new Date();
-  today.setHours(0, 0, 0, 0); // reset giờ
-
-  if (selectedDate <= today) {
-    alert("Ngày đặt phải sau ngày hiện tại.");
-    return;
-  }
-
-  // ✅ Validate phải chọn ít nhất 1 dịch vụ
-  if (!formData.selectedServiceIds || formData.selectedServiceIds.length === 0) {
-    alert("Vui lòng chọn ít nhất một dịch vụ.");
-    return;
-  }
-
-  // ✅ Validate staff
-  if (!formData.staffId || formData.staffId === 0) {
-    alert("Vui lòng chọn nhân viên.");
-    return;
-  }
-
-  const payload = {
-    CustomerId: formData.personId,
-    StaffId: formData.staffId,
-    ReservationDate: formData.reservationDate?.slice(0, 10),
-    Note: formData.note,
-    Status: formData.status,
-    ServiceIds: formData.selectedServiceIds,
+  const getDefaultStaffName = () => {
+    const staff = allStaffs.find(s => s.personId === formData.staffId);
+    return staff ? staff.personName : "Select Staff";
   };
 
-  try {
-    const res = await fetch(`https://localhost:7012/api/reservation/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-    if (!res.ok) throw new Error("Update failed");
-    alert("Reservation updated successfully!");
-    navigate(`/reservation/detail/${id}`);
-  } catch (err) {
-    console.error("Update error:", err);
-    alert("Update failed.");
-  }
-};
+    if (!formData.reservationDate) {
+      alert("Vui lòng chọn ngày đặt.");
+      return;
+    }
+
+    const selectedDate = new Date(formData.reservationDate + "T00:00:00");
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    if (selectedDate <= today) {
+      alert("Ngày đặt phải sau ngày hiện tại.");
+      return;
+    }
+
+    if (!formData.selectedServiceIds || formData.selectedServiceIds.length === 0) {
+      alert("Vui lòng chọn ít nhất một dịch vụ.");
+      return;
+    }
+
+    if (!formData.staffId || formData.staffId === 0) {
+      alert("Vui lòng chọn nhân viên.");
+      return;
+    }
+
+    const payload = {
+      ReservationId: formData.reservationId,
+      CustomerId: formData.personId,
+      StaffId: formData.staffId,
+      ReservationDate: formData.reservationDate?.slice(0, 10),
+      Note: formData.note,
+      Status: formData.status,
+      ServiceIds: formData.selectedServiceIds,
+    };
+
+    try {
+      const res = await fetch(`https://localhost:7012/api/reservation/${id}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) throw new Error("Update failed");
+      alert("Reservation updated successfully!");
+      navigate(`/reservation/detail/${id}`);
+    } catch (err) {
+      console.error("Update error:", err);
+      alert("Update failed.");
+    }
+  };
 
   if (loading) return <div>Loading...</div>;
 
@@ -161,7 +153,6 @@ const getDefaultStaffName = () => {
     <div className="p-4 max-w-xl mx-auto bg-white rounded-xl shadow-md space-y-4">
       <h2 className="text-xl font-semibold">Update Reservation</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
-
         <div>
           <label className="font-medium">Reservation Date:</label>
           <input
@@ -205,22 +196,22 @@ const getDefaultStaffName = () => {
           />
         </div>
 
-      <div>
-  <label className="font-medium">Staff:</label>
-  <select
-    name="staffId"
-    value={formData.staffId}
-    onChange={handleChange}
-    className="border rounded px-2 py-1 w-full"
-  >
-    <option value={0}>-- {getDefaultStaffName()} --</option>
-    {allStaffs.map((s) => (
-      <option key={`staff-${s.personId}`} value={s.personId}>
-        {s.fullName} ({s.personName})
-      </option>
-    ))}
-  </select>
-</div>
+        <div>
+          <label className="font-medium">Staff:</label>
+          <select
+            name="staffId"
+            value={formData.staffId}
+            onChange={handleChange}
+            className="border rounded px-2 py-1 w-full"
+          >
+            <option value={0}>-- {getDefaultStaffName()} --</option>
+            {allStaffs.map((s) => (
+              <option key={`staff-${s.personId}`} value={s.personId}>
+                {s.fullName} ({s.personName})
+              </option>
+            ))}
+          </select>
+        </div>
 
         <div>
           <h4 className="font-semibold mt-4">Services</h4>

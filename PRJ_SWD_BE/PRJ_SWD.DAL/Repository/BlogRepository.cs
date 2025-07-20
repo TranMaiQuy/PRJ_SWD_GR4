@@ -50,11 +50,11 @@ namespace PRJ_SWD.DAL.Repository
             return result;
         }
 
-        public Blog Update(Blog blog)
+        public void Update(Blog blog)
         {
            
             _context.Blogs.Update(blog);
-            return blog;
+
         }
        
     }

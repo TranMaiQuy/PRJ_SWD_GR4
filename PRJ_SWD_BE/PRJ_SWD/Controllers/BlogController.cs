@@ -51,8 +51,9 @@ namespace PRJ_SWD.Controllers
         }
         [HttpPut("{id}")]
         public IActionResult Edit(int id, [FromForm] BlogDto dto) { 
-            var existedBlog = service.UpdateBlog(id, dto);
-            return Ok(existedBlog);
+            if(id != dto.BlogId) return BadRequest();
+           service.UpdateBlog( dto);
+            return Ok(new { message ="Blog updated successfully" });
         }
 
         [HttpDelete("{id}")]

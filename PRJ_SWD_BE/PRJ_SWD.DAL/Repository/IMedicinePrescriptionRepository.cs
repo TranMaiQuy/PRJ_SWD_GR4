@@ -13,7 +13,7 @@ namespace PRJ_SWD.DAL.Repository
         void Delete(int id);
         Prescription? GetById(int id);
         List<Prescription> GetAll();
-        Prescription Update(Prescription prescription);
+        void Update(Prescription prescription);
 
         Account FindStaff(Prescription prescription);
         Account FindCustomer(Prescription prescription);

@@ -36,10 +36,10 @@ namespace PRJ_SWD.DAL.Repository
             return _context.Medicines.ToList();
         }
 
-        public Medicine Update(Medicine medicine)
+        public void Update(Medicine medicine)
         {
             _context.Medicines.Update(medicine);
-            return medicine;
+          
         }
     }
 }

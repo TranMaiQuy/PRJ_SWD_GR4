@@ -29,6 +29,11 @@
         "IsRequired": true
       },
       {
+        "Name": "BlogId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "Title",
         "Type": "System.String",
         "IsRequired": false
@@ -90,6 +95,11 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "BlogId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
       {
         "Name": "Title",
         "Type": "System.String",

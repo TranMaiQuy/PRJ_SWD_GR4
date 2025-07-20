@@ -45,19 +45,19 @@ namespace PRJ_SWD.Business.Service.MedicineService
             return repository.GetById(id);
         }
 
-        public Medicine UpdateMedicine(int id, Medicine medicine)
+        public void UpdateMedicine(Medicine medicine)
         {
-            var existingMedicine = repository.GetById(id);
-            if (existingMedicine == null) return null;
+            var existingMedicine = repository.GetById(medicine.MedicineId);
+         
 
             // Cập nhật từng trường
             existingMedicine.Name = medicine.Name;
             existingMedicine.Quantity = medicine.Quantity;
             existingMedicine.Price = medicine.Price;
-
+            repository.Update(existingMedicine);
             unitOfWork.Commit(); // Lưu thay đổi
 
-            return existingMedicine;
+          
         }
     }
 }

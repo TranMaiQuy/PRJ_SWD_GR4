@@ -43,8 +43,9 @@ namespace PRJ_SWD.Controllers
         [HttpPut("{id}")]
         public IActionResult Edit(int id, [FromBody] ReservationUpdateDto dto)
         {
-            var existedReservation = reservationService.UpdateReservation(id, dto);
-            return Ok(existedReservation);
+            if (id != dto.ReservationId) return BadRequest();
+            reservationService.UpdateReservation(dto);
+            return Ok(new { message = "Reservation updated successfully" });
         }
     }
 }

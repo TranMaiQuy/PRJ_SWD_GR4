@@ -75,16 +75,32 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
             return result;
         }
 
-        public Prescription? GetPrescriptionById(int id)
+        public PrescriptionViewModel? GetPrescriptionById(int id)
         {
-           return  medicinePrescriptionRepository.GetById(id);
+         
+            var prescription = medicinePrescriptionRepository.GetById(id);
+            if (prescription == null) return null;
+            var staff = medicinePrescriptionRepository.FindStaff(prescription);
+            var customer = medicinePrescriptionRepository.FindCustomer(prescription);
+            var medicine = medicinePrescriptionRepository.FindMedicine(prescription);
+            return new PrescriptionViewModel
+            {
+                PrescriptionId = prescription.PrescriptionId,
+                DoctorName = staff.PersonName,
+                CustomerName = customer.PersonName,
+                MedicineName = medicine.Name,
+                Dosage = prescription.Dosage,
+                Note = prescription.Note,
+                TotalCost = prescription.TotalCost
+            };
+
         }
 
-        public Prescription UpdatePrescription(int id, MedicinePrescriptionUpdateDto prescription)
+        public void UpdatePrescription(MedicinePrescriptionUpdateDto prescription)
         {
-            var existeingPrescription = medicinePrescriptionRepository.GetById(id);
+            var existeingPrescription = medicinePrescriptionRepository.GetById(prescription.PrescriptionId);
            
-                existeingPrescription.PrescriptionId = id;
+                existeingPrescription.PrescriptionId = prescription.PrescriptionId;
                 existeingPrescription.ExaminationId = prescription.ExaminationId;
                 existeingPrescription.DoctorId = prescription.DoctorId;
                 existeingPrescription.CustomerId = prescription.CustomerId;
@@ -92,9 +108,9 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
                 existeingPrescription.Dosage = prescription.Dosage;
                 existeingPrescription.Note = prescription.Note;
                 existeingPrescription.TotalCost = prescription.TotalCost;
-                var update = medicinePrescriptionRepository.Update(existeingPrescription);
+                medicinePrescriptionRepository.Update(existeingPrescription);
                 unitOfWork.Commit();
-            return update;
+           
         }
     }
 }

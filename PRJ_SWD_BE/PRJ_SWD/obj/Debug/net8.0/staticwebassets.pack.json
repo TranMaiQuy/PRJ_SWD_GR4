@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\images\\9d9a12d5-246f-4c6a-a85a-87fc764a3308.jpg"
     },
     {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\9ec54964-61da-42f1-829d-32beb22b0f38.png",
+      "PackagePath": "staticwebassets\\images\\9ec54964-61da-42f1-829d-32beb22b0f38.png"
+    },
+    {
       "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png",
       "PackagePath": "staticwebassets\\images\\9f680733-7b5c-4e29-9a7f-d432376114be.png"
     },
@@ -97,8 +101,16 @@
       "PackagePath": "staticwebassets\\images\\aba95d55-6966-4a4d-abbb-a4cd23e04d2e.png"
     },
     {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\ae694787-3e06-4163-992b-5ef5cd7cfdda.png",
+      "PackagePath": "staticwebassets\\images\\ae694787-3e06-4163-992b-5ef5cd7cfdda.png"
+    },
+    {
       "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png",
       "PackagePath": "staticwebassets\\images\\b1b7a920-0e2a-4d66-97a9-3ff27e19c6af.png"
+    },
+    {
+      "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\b47b86a6-50b1-4bac-a6ed-dc6a45858ff6.png",
+      "PackagePath": "staticwebassets\\images\\b47b86a6-50b1-4bac-a6ed-dc6a45858ff6.png"
     },
     {
       "Id": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD\\wwwroot\\images\\bb6928c4-39b4-4f10-bb79-066d04d9afab.png",

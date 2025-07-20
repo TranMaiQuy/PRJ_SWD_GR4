@@ -41,10 +41,10 @@ namespace PRJ_SWD.DAL.Repository
             return _context.Prescriptions.Include(a => a.Services).FirstOrDefault(a => a.PrescriptionId == id);
         }
 
-        public Prescription Update(Prescription prescription)
+        public void Update(Prescription prescription)
         {
             _context.Update(prescription);
-            return prescription;
+            
         }
       
 

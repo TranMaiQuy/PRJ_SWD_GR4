@@ -15,6 +15,6 @@ namespace PRJ_SWD.DAL.Repository
         Blog GetById(int id);
         void Delete(int id);
         List<Blog> List();
-        Blog Update( Blog dto);
+        void Update( Blog dto);
     }
 }

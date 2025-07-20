@@ -16,6 +16,6 @@ namespace PRJ_SWD.DAL.Repository
         void Delete(int id);
         Reservation FindReservation(int id);
         List<Reservation> List();
-        Reservation Update(Reservation model);
+        void Update(Reservation model);
     }
 }

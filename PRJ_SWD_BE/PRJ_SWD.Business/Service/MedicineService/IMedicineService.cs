@@ -14,6 +14,6 @@ namespace PRJ_SWD.Business.Service.MedicineService
         void DeleteMedicine(int id);
         Medicine? GetMedicineById(int id);
         List<Medicine> GetAllMedicine();
-        Medicine UpdateMedicine(int id,Medicine medicine);
+        void UpdateMedicine(Medicine medicine);
     }
 }
