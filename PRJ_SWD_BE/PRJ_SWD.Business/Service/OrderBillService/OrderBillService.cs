@@ -27,40 +27,50 @@ namespace PRJ_SWD.Business.ServiceImplementation
                 ScheduleId = o.ScheduleId
             }).ToList();
         }
-
         public OrderBillDetailDto? GetById(int id)
         {
-            var o = _context.OrderBills
+            var order = _context.OrderBills
                 .Include(o => o.Reservation)
                 .Include(o => o.Schedule)
-                .Include(o => o.Services)
                 .Include(o => o.Prescriptions)
-                .FirstOrDefault(x => x.OrderId == id);
+                .Include(o => o.Services)
+                .FirstOrDefault(o => o.OrderId == id);
 
-            if (o == null) return null;
+            if (order == null) return null;
+
+            // Lấy tên khách hàng từ bảng Customer
+            var customer = _context.Accounts.FirstOrDefault(c => c.PersonId == order.CustomerId);
 
             return new OrderBillDetailDto
             {
-                OrderId = o.OrderId,
-                OrderDate = o.OrderDate,
-                CustomerId = o.CustomerId,
-                TotalAmount = o.TotalAmount,
-                PaymentMethod = o.PaymentMethod,
-                ReservationId = o.ReservationId,
-                ReservationDate = o.Reservation?.ReservationDate.ToString("yyyy-MM-dd"),
-                ScheduleId = o.ScheduleId,
-                ScheduleDescription = o.Schedule?.Description,
-                Services = o.Services.Select(s => s.Name).ToList(),
-                Prescriptions = o.Prescriptions.Select(p => p.Description).ToList()
+                OrderId = order.OrderId,
+                OrderDate = order.OrderDate,
+                CustomerId = order.CustomerId,
+                CustomerName = customer?.PersonName ?? "Unknown",
+                TotalAmount = order.TotalAmount,
+                PaymentMethod = order.PaymentMethod,
+                ReservationId = order.ReservationId,
+                ReservationDate = (DateOnly)(order.Reservation?.ReservationDate),
+                ScheduleId = order.ScheduleId,
+                ScheduleDescription = $"Slot: {order.Schedule.SlotId}, Date: {order.Schedule.Date}",
+
+                Prescriptions = order.Prescriptions.Select(p =>
+                    $"Medicine: {p.Medicine.Name}, Dosage: {p.Dosage}, Note: {p.Note}"
+                ).ToList(),
+
+                Services = order.Services.Select(s => s.ServiceName).ToList()
             };
         }
 
 
+
+
+
         public void Create(OrderBillCreateDto dto)
         {
-            var entity = new OrderBill
+            var order = new OrderBill
             {
-                OrderDate = dto.OrderDate,
+                OrderDate = DateOnly.Parse(dto.OrderDate),
                 CustomerId = dto.CustomerId,
                 TotalAmount = dto.TotalAmount,
                 PaymentMethod = dto.PaymentMethod,
@@ -68,7 +78,8 @@ namespace PRJ_SWD.Business.ServiceImplementation
                 ScheduleId = dto.ScheduleId
             };
 
-            _context.OrderBills.Add(entity);
+
+            _context.OrderBills.Add(order);
             _context.SaveChanges();
         }
 
@@ -95,5 +106,7 @@ namespace PRJ_SWD.Business.ServiceImplementation
             _context.OrderBills.Remove(entity);
             _context.SaveChanges();
         }
+
+       
     }
 }

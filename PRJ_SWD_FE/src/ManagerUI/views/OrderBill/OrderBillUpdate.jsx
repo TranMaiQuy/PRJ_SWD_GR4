@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import axios from "axios";
 
 export default function OrderBillUpdate() {
   const { id } = useParams();
@@ -8,9 +7,10 @@ export default function OrderBillUpdate() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`/api/OrderBill/detail/${id}`)
-      .then((res) => setForm(res.data))
-      .catch((err) => console.error("Load failed", err));
+    fetch(`https://localhost:7012/api/OrderBill/detail/${id}`)
+      .then(res => res.json())
+      .then(data => setForm(data))
+      .catch(err => console.error("Load failed", err));
   }, [id]);
 
   const handleChange = (e) => {
@@ -19,8 +19,15 @@ export default function OrderBillUpdate() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.put(`/api/OrderBill/${id}`, form)
-      .then(() => navigate("/orderbill"))
+    fetch(`https://localhost:7012/api/OrderBill/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    })
+      .then(res => {
+        if (!res.ok) throw new Error("Update failed");
+        navigate("/orderbill");
+      })
       .catch((err) => console.error("Update failed", err));
   };
 

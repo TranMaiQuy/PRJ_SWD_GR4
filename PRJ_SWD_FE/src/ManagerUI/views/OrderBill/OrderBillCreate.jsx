@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 export default function OrderBillCreate() {
@@ -8,28 +7,110 @@ export default function OrderBillCreate() {
     orderDate: "",
     totalAmount: "",
     paymentMethod: "",
+    reservationId: "",
+    scheduleId: "",
   });
 
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+
+    // Ép kiểu number nếu là số
+    const isNumberField = ["customerId", "totalAmount", "paymentMethod", "reservationId", "scheduleId"].includes(name);
+    setForm((prev) => ({
+      ...prev,
+      [name]: isNumberField ? parseInt(value) || 0 : value
+    }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("/api/OrderBill", form)
-      .then(() => navigate("/orderbill"))
-      .catch((err) => console.error("Create failed", err));
+
+    // Kiểm tra nhanh trước khi gửi
+    if (!form.orderDate) {
+      alert("Please select an order date.");
+      return;
+    }
+
+    fetch("https://localhost:7012/api/OrderBill/create", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    })
+      .then(res => {
+        if (!res.ok) throw new Error("Create failed");
+        return res.json();
+      })
+      .then(() => {
+        alert("Order Bill created successfully!");
+        navigate("/orderbill");
+      })
+      .catch((err) => {
+        console.error("Create failed", err);
+        alert("Failed to create Order Bill. Check console for details.");
+      });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} style={{ padding: "20px" }}>
       <h2>Create Order Bill</h2>
-      <input name="customerId" placeholder="Customer ID" onChange={handleChange} required />
-      <input name="orderDate" type="date" onChange={handleChange} required />
-      <input name="totalAmount" type="number" onChange={handleChange} required />
-      <input name="paymentMethod" placeholder="Payment Method" onChange={handleChange} required />
+
+      <label>Customer ID:</label>
+      <input
+        name="customerId"
+        type="number"
+        value={form.customerId}
+        onChange={handleChange}
+        required
+      />
+
+      <label>Order Date:</label>
+      <input
+        name="orderDate"
+        type="date"
+        value={form.orderDate}
+        onChange={handleChange}
+        required
+      />
+
+      <label>Total Amount:</label>
+      <input
+        name="totalAmount"
+        type="number"
+        value={form.totalAmount}
+        onChange={handleChange}
+        required
+      />
+
+      <label>Payment Method:</label>
+      <input
+        name="paymentMethod"
+        type="number"
+        value={form.paymentMethod}
+        onChange={handleChange}
+        required
+      />
+
+      <label>Reservation ID:</label>
+      <input
+        name="reservationId"
+        type="number"
+        value={form.reservationId}
+        onChange={handleChange}
+        required
+      />
+
+      <label>Schedule ID:</label>
+      <input
+        name="scheduleId"
+        type="number"
+        value={form.scheduleId}
+        onChange={handleChange}
+        required
+      />
+
+      <br /><br />
       <button type="submit">Create</button>
     </form>
   );

@@ -1,6 +1,4 @@
-// /src/ManagerUI/OrderBill/OrderBillDetail.jsx
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useParams } from "react-router-dom";
 
 export default function OrderBillDetail() {
@@ -8,8 +6,9 @@ export default function OrderBillDetail() {
   const [order, setOrder] = useState(null);
 
   useEffect(() => {
-    axios.get(`/api/OrderBill/detail/${id}`)
-      .then(res => setOrder(res.data))
+    fetch(`https://localhost:7012/api/OrderBill/detail/${id}`)
+      .then(res => res.json())
+      .then(setOrder)
       .catch(err => console.error("Error fetching order bill:", err));
   }, [id]);
 

@@ -10,7 +10,7 @@
         public int PaymentMethod { get; set; }
 
         public int ReservationId { get; set; }
-        public string? ReservationDate { get; set; }
+        public DateOnly ReservationDate { get; set; }
 
         public int ScheduleId { get; set; }
         public string? ScheduleDescription { get; set; }

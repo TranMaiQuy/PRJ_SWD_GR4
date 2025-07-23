@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 export default function OrderBill() {
@@ -7,15 +6,20 @@ export default function OrderBill() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("/api/OrderBill")
-      .then((res) => setData(res.data))
+    fetch("https://localhost:7012/api/OrderBill/list")
+      .then(res => {
+        if (!res.ok) throw new Error("Failed to fetch order bills");
+        return res.json();
+      })
+      .then(setData)
       .catch((err) => console.error("Failed to load order bills", err));
   }, []);
 
   const handleDelete = (id) => {
     if (window.confirm("Are you sure you want to delete this order?")) {
-      axios.delete(`/api/OrderBill/${id}`)
-        .then(() => {
+      fetch(`https://localhost:7012/api/OrderBill/${id}`, { method: "DELETE" })
+        .then(res => {
+          if (!res.ok) throw new Error("Delete failed");
           setData(prev => prev.filter(order => order.orderId !== id));
         })
         .catch(err => console.error("Delete failed", err));
