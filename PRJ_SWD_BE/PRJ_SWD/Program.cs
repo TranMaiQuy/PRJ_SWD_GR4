@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using PRJ_SWD.Business.Service.BlogService;
 using PRJ_SWD.Business.Service.ServiceService;
 using PRJ_SWD.Business.Service.StaffService;
+using PRJ_SWD.Business.Service.MedicalExam;
 
 namespace PRJ_SWD
 {
@@ -28,6 +29,11 @@ namespace PRJ_SWD
             builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
             builder.Services.AddScoped<StaffService>();
             builder.Services.AddScoped<StaffRepository>();
+            builder.Services.AddControllers();
+            builder.Services.AddScoped<IMedicalExaminationService, MedicalExaminationService>();
+            builder.Services.AddScoped<IMedicalExaminationRepository, MedicalExaminationRepository>();
+
+
             builder.Services.AddDbContext<PrjSwdContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("MyDatabase")));
 

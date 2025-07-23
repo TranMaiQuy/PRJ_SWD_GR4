@@ -12,13 +12,9 @@ import Service from "../views/Service/Service";
 import ServiceCreate from "../views/Service/ServiceCreate";
 import ServiceEdit from "../views/Service/ServiceEdit";
 import ServiceDetail from "../views/Service/ServiceDetail";
-
-
-
-
-
-
-
+import MedicalExaminationList from '../views/MedicalExam/MedicalExaminationList';
+import MedicalExaminationForm from '../views/MedicalExam/MedicalExaminationForm';
+import MedicalExaminationDetail from '../views/MedicalExam/MedicalExaminationDetail';
 
 const AppRoutes = () => {
   return (
@@ -36,7 +32,10 @@ const AppRoutes = () => {
       <Route path="/service/create" element={<ServiceCreate />} />
       <Route path="/service/edit/:id" element={<ServiceEdit />} />
       <Route path="/service/detail/:id" element={<ServiceDetail />} />
-
+      <Route path="/medical-examinations" element={<MedicalExaminationList />} />
+      <Route path="/medical-examinations/create" element={<MedicalExaminationForm />} />
+      <Route path="/medical-examinations/edit/:id" element={<MedicalExaminationForm />} />
+      <Route path="/medical-examinations/:id" element={<MedicalExaminationDetail />} />
 
     </Routes>
   );
