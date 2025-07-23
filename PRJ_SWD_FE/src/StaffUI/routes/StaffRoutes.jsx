@@ -8,6 +8,9 @@ import Prescription from "../views/Prescription/Prescription"
 import PrescriptionCreate from "../views/Prescription/PrescriptionCreate"
 import PrescriptionEdit from "../views/Prescription/PrescriptionEdit";
 import PrescriptionDetail from "../views/Prescription/PrescriptionDetail";
+import MedicalExaminationList from '../views/MedicalExam/MedicalExaminationList';
+import MedicalExaminationForm from '../views/MedicalExam/MedicalExaminationForm';
+import MedicalExaminationDetail from '../views/MedicalExam/MedicalExaminationDetail';
 
 const staffRoutes = [
   <Route key="medicine" path="/medicine" element={<Medicine />} />,
@@ -18,6 +21,10 @@ const staffRoutes = [
   <Route key="prescription-create" path="/prescription/create" element={<PrescriptionCreate />} />,
   <Route key="prescription-edit" path="/prescription/edit/:id" element={<PrescriptionEdit />} />,
   <Route key="prescription-detail" path="/prescription/detail/:id" element={<PrescriptionDetail />} />,
+  <Route path="/medical-examinations" element={<MedicalExaminationList />} />,
+  <Route path="/medical-examinations/create" element={<MedicalExaminationForm />} />,
+  <Route path="/medical-examinations/edit/:id" element={<MedicalExaminationForm />} />,
+  <Route path="/medical-examinations/:id" element={<MedicalExaminationDetail />} />,
 ];
 
 export default staffRoutes;

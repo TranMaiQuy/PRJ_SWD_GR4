@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using PRJ_SWD.Business.Service.BlogService;
 using PRJ_SWD.Business.Service.ServiceService;
 using PRJ_SWD.Business.Service.StaffService;
+using PRJ_SWD.Business.Service.MedicalExam;
 using PRJ_SWD.Business.Service.MedicineService;
 using PRJ_SWD.Business.Service.MedicinePrescriptionService;
 using PRJ_SWD.Business.Service.OrderBillService;
@@ -32,6 +33,9 @@ namespace PRJ_SWD
             builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
             builder.Services.AddScoped<StaffService>();
             builder.Services.AddScoped<StaffRepository>();
+            builder.Services.AddControllers();
+            builder.Services.AddScoped<IMedicalExaminationService, MedicalExaminationService>();
+            builder.Services.AddScoped<IMedicalExaminationRepository, MedicalExaminationRepository>();
             builder.Services.AddScoped<IMedicineService, MedicineService>();
             builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
             builder.Services.AddScoped<IMedicinePrescriptionService, MedicinePrescriptionService>();
