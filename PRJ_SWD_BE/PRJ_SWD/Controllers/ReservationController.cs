@@ -18,7 +18,7 @@ namespace PRJ_SWD.Controllers
         }
         [HttpGet("list")]
         public IActionResult List() { 
-            var list = reservationService.GetAllReservations();
+            var list = reservationService.ListReservations();
             return Ok(list);
         }
         [HttpPost("create")]
