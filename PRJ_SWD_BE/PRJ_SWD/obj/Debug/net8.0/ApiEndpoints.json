@@ -244,6 +244,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PRJ_SWD.Controllers.OrderBillController",
+    "Method": "Update",
+    "RelativePath": "api/OrderBill/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PRJ_SWD.Application.DTO.OrderBillUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.OrderBillController",
+    "Method": "Delete",
+    "RelativePath": "api/OrderBill/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.OrderBillController",
+    "Method": "Create",
+    "RelativePath": "api/OrderBill/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PRJ_SWD.Application.DTO.OrderBillCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.OrderBillController",
+    "Method": "Detail",
+    "RelativePath": "api/OrderBill/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRJ_SWD.Controllers.OrderBillController",
+    "Method": "List",
+    "RelativePath": "api/OrderBill/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PRJ_SWD.Controllers.MedicinePrescriptionController",
     "Method": "Delete",
     "RelativePath": "api/prescription/{id}",

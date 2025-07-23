@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj": {}
+    "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj": {}
   },
   "projects": {
-    "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
+    "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj",
+        "projectUniqueName": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj",
         "projectName": "PRJ_SWD.Application",
-        "projectPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\obj\\",
+        "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -61,21 +71,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj": {
+    "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj",
+        "projectUniqueName": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj",
         "projectName": "PRJ_SWD.Business",
-        "projectPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Business\\obj\\",
+        "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\PRJ_SWD.Business.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,11 +103,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
-                "projectPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj"
+              "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
+                "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj"
               },
-              "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj": {
-                "projectPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj"
+              "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj": {
+                "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj"
               }
             }
           }
@@ -102,7 +116,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -123,21 +143,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj": {
+    "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
+        "projectUniqueName": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
         "projectName": "PRJ_SWD.DAL",
-        "projectPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.DAL\\obj\\",
+        "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\PRJ_SWD.DAL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,8 +175,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
-                "projectPath": "D:\\VSC\\PRJ_SWD_GR4\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj"
+              "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj": {
+                "projectPath": "E:\\SWD\\PRJ_SWD_BE\\PRJ_SWD.Application\\PRJ_SWD.Application.csproj"
               }
             }
           }
@@ -161,7 +185,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -206,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
