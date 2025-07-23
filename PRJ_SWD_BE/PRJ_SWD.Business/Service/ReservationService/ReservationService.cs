@@ -49,7 +49,7 @@ namespace PRJ_SWD.Business.Service.ReservationService
             unitOfWork.Commit();
         }
 
-        public List<ReservationViewModel> GetAllReservations()
+        public List<ReservationViewModel> ListReservations()
         {
             var list = reservationRepository.List();
             var result = new List<ReservationViewModel>();
