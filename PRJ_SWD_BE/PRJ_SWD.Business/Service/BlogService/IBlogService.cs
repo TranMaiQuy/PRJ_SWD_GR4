@@ -9,11 +9,11 @@ using PRJ_SWD.Application.ViewModel;
 
 namespace PRJ_SWD.Business.Service.BlogService
 {
-    internal interface IBlogService
+    public interface IBlogService
     {
        void AddBlog(BlogDto blog);
         void DeleteBlog(int id);
-       Blog UpdateBlog(int id, BlogDto blog);
+        void UpdateBlog(BlogDto blog);
         List<BlogViewModel> GetAllBlog();
         Blog GetBlogById(int id);
     }

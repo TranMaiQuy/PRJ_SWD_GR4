@@ -14,9 +14,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
 {
     public class ReservationService : IReservationService
     {
-       public  ReservationRepository reservationRepository;
+       public IReservationRepository reservationRepository;
        public IUnitOfWork unitOfWork;
-       public ReservationService(ReservationRepository reservationRepository, IUnitOfWork unitOfWork)
+       public ReservationService(IReservationRepository reservationRepository, IUnitOfWork unitOfWork)
         {
             this.reservationRepository = reservationRepository;
             this.unitOfWork = unitOfWork;
@@ -49,9 +49,33 @@ namespace PRJ_SWD.Business.Service.ReservationService
             unitOfWork.Commit();
         }
 
-        public List<Reservation> GetAllReservations()
+        public List<ReservationViewModel> GetAllReservations()
         {
-            return reservationRepository.List();
+            var list = reservationRepository.List();
+            var result = new List<ReservationViewModel>();
+
+            foreach (var item in list)
+            {
+                var reservation = reservationRepository.FindReservation(item.ReservationId);
+                if (reservation == null)
+                    continue;
+
+                var staff = reservationRepository.FindStaff(reservation);
+                var customer = reservationRepository.FindCustomer(reservation);
+
+                result.Add(new ReservationViewModel
+                {
+                    ReservationId = reservation.ReservationId,
+                    ReservationDate = reservation.ReservationDate?.ToString("yyyy-MM-dd"),
+                    Note = reservation.Note,
+                    CreatedDate = reservation.CreatedDate,
+                    StaffName = staff?.PersonName ?? "Unknown",
+                    CustomerName = customer?.PersonName ?? "Unknown",
+                    Status = reservation.Status
+                });
+            }
+
+            return result;
         }
 
         public ReservationViewModel GetReservationById(int id)
@@ -72,6 +96,7 @@ namespace PRJ_SWD.Business.Service.ReservationService
                 Note = reservation.Note,
                 Status = reservation.Status,
                 StaffId = reservation.StaffId,
+                CreatedDate = reservation.CreatedDate,
                 StaffName = staff?.PersonName ?? "Unknown staff", // fallback nếu không tìm thấy
                 CustomerName = customer?.PersonName ?? "Unknown Cusstomer",
                 Services = reservation.Services.Select(s => new ServiceViewModel
@@ -83,9 +108,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
             return result;
         }
 
-        public Reservation UpdateReservation(int id, ReservationUpdateDto model)
+        public void UpdateReservation( ReservationUpdateDto model)
         {
-            var reservation = reservationRepository.FindReservation(id);
+            var reservation = reservationRepository.FindReservation(model.ReservationId);
             reservation.Note = model.Note;
             reservation.ReservationDate = DateOnly.Parse(model.ReservationDate);
             reservation.Status = model.Status;
@@ -97,9 +122,9 @@ namespace PRJ_SWD.Business.Service.ReservationService
             {
                 reservationRepository.Find(model.ServiceIds[i], reservation);
             }
-            var result = reservationRepository.Update( reservation);
+             reservationRepository.Update( reservation);
             unitOfWork.Commit();
-            return result;
+            
 
         }
     }

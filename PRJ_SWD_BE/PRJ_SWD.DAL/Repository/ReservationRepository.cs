@@ -49,12 +49,12 @@ namespace PRJ_SWD.DAL.Repository
 
         public List<Reservation> List()
         {
-            return _context.Reservations.ToList();
+            return _context.Reservations.Include(a => a.Customer).ToList();
         }
 
 
 
-        public Reservation Update(Reservation model)
+        public void Update(Reservation model)
         {
 
 
@@ -62,7 +62,7 @@ namespace PRJ_SWD.DAL.Repository
 
             // Cập nhật các thông tin cơ bản
             _context.Reservations.Update(model);
-            return model;
+           
         }
         public Service Find(int id, Reservation reservation)
         {

@@ -6,7 +6,14 @@ using Microsoft.EntityFrameworkCore;
 using PRJ_SWD.Business.Service.BlogService;
 using PRJ_SWD.Business.Service.ServiceService;
 using PRJ_SWD.Business.Service.StaffService;
+<<<<<<< HEAD
 using PRJ_SWD.Business.Service.MedicalExam;
+=======
+using PRJ_SWD.Business.Service.MedicineService;
+using PRJ_SWD.Business.Service.MedicinePrescriptionService;
+using PRJ_SWD.Business.Service.OrderBillService;
+using PRJ_SWD.Business.ServiceImplementation;
+>>>>>>> e2030cfa703f65233b2fa052ead9e1924cd5bbf5
 
 namespace PRJ_SWD
 {
@@ -19,21 +26,29 @@ namespace PRJ_SWD
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddScoped<ReservationService>();
-            builder.Services.AddScoped<ReservationRepository>();
-            builder.Services.AddScoped<BlogService>();
-            builder.Services.AddScoped<BlogRepository>();
+            builder.Services.AddScoped<IReservationService, ReservationService>();
+            builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+            builder.Services.AddScoped<IBlogService, BlogService>();
+            builder.Services.AddScoped<IBlogRepository, BlogRepository>();
             builder.Services.AddScoped<ServiceService>();
             builder.Services.AddScoped<ServiceRepository>();
             builder.Services.AddScoped<IServiceService, ServiceService>();
             builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
             builder.Services.AddScoped<StaffService>();
             builder.Services.AddScoped<StaffRepository>();
+<<<<<<< HEAD
             builder.Services.AddControllers();
             builder.Services.AddScoped<IMedicalExaminationService, MedicalExaminationService>();
             builder.Services.AddScoped<IMedicalExaminationRepository, MedicalExaminationRepository>();
 
 
+=======
+            builder.Services.AddScoped<IMedicineService, MedicineService>();
+            builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
+            builder.Services.AddScoped<IMedicinePrescriptionService, MedicinePrescriptionService>();
+            builder.Services.AddScoped<IMedicinePrescriptionRepository, MedicinePrescriptionRepository>();
+            builder.Services.AddScoped<IOrderBillService, OrderBillService>();
+>>>>>>> e2030cfa703f65233b2fa052ead9e1924cd5bbf5
             builder.Services.AddDbContext<PrjSwdContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("MyDatabase")));
 

@@ -13,9 +13,9 @@ namespace PRJ_SWD.Business.Service.BlogService
 {
     public class BlogService : IBlogService
     {
-        public BlogRepository repository;
+        public IBlogRepository repository;
         public IUnitOfWork unitOfWork;
-      public BlogService(BlogRepository repository, IUnitOfWork unitOfWork)
+      public BlogService(IBlogRepository repository, IUnitOfWork unitOfWork)
         {
             this.repository = repository;
             this.unitOfWork = unitOfWork;
@@ -80,7 +80,7 @@ namespace PRJ_SWD.Business.Service.BlogService
            return repository.GetById(id);
         }
 
-        public Blog UpdateBlog(int id, BlogDto dto)
+        public void UpdateBlog(BlogDto dto)
         {
             string fileName = null;
 
@@ -97,7 +97,7 @@ namespace PRJ_SWD.Business.Service.BlogService
                     dto.Image.CopyTo(stream);
                 }
             }
-            var existingBlog = GetBlogById(id);
+            var existingBlog = GetBlogById(dto.BlogId);
 
 
             existingBlog.Title = dto.Title;
@@ -107,9 +107,9 @@ namespace PRJ_SWD.Business.Service.BlogService
             existingBlog.CategoryId = dto.CategoryId;
             existingBlog.PersonId = dto.PersonId;
             existingBlog.CreatedDate = DateOnly.FromDateTime(dto.CreatedDate);
-            var blogDto = repository.Update(existingBlog);
+           repository.Update(existingBlog);
             unitOfWork.Commit();
-            return blogDto;
+         
         }
     }
 }
