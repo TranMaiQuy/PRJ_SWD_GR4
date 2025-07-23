@@ -101,10 +101,6 @@ namespace PRJ_SWD.Business.Service.MedicinePrescriptionService
             var existeingPrescription = medicinePrescriptionRepository.GetById(prescription.PrescriptionId);
            
                 existeingPrescription.PrescriptionId = prescription.PrescriptionId;
-                existeingPrescription.ExaminationId = prescription.ExaminationId;
-                existeingPrescription.DoctorId = prescription.DoctorId;
-                existeingPrescription.CustomerId = prescription.CustomerId;
-                existeingPrescription.MedicineId = prescription.MedicineId;
                 existeingPrescription.Dosage = prescription.Dosage;
                 existeingPrescription.Note = prescription.Note;
                 existeingPrescription.TotalCost = prescription.TotalCost;

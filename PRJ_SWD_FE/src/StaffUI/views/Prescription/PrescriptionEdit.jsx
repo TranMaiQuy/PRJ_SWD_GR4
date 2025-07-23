@@ -5,10 +5,6 @@ const PrescriptionEdit = () => {
   const { id } = useParams();
   const [form, setForm] = useState({
     prescriptionId: 0,
-    examinationId: 0,
-    doctorId: 0,
-    customerId: 0,
-    medicineId: 0,
     dosage: "",
     note: "",
     totalCost: 0,
@@ -94,41 +90,6 @@ const PrescriptionEdit = () => {
     <div style={{ maxWidth: "600px", margin: "0 auto", padding: "20px" }}>
       <h2>Chỉnh sửa Toa thuốc #{id}</h2>
       <form onSubmit={handleSubmit}>
-        <label>Examination ID:</label><br />
-        <input
-          type="number"
-          name="examinationId"
-          value={form.examinationId}
-          onChange={handleChange}
-          required
-        /><br /><br />
-
-        <label>Doctor ID:</label><br />
-        <input
-          type="number"
-          name="doctorId"
-          value={form.doctorId}
-          onChange={handleChange}
-          required
-        /><br /><br />
-
-        <label>Customer ID:</label><br />
-        <input
-          type="number"
-          name="customerId"
-          value={form.customerId}
-          onChange={handleChange}
-          required
-        /><br /><br />
-
-        <label>Medicine ID:</label><br />
-        <input
-          type="number"
-          name="medicineId"
-          value={form.medicineId}
-          onChange={handleChange}
-          required
-        /><br /><br />
 
         <label>Liều dùng (Dosage):</label><br />
         <input
